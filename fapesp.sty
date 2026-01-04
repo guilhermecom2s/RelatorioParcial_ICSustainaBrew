@@ -1,0 +1,452 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% pacote: fapesp.sty
+% Autor: André Lourenço
+% Data: 2025-09-17
+% Objetivo: Estilos e comandos personalizados para relatórios FAPESP
+% Observação: Ajustado para ABNT e relatórios Temáticos e CPA/CPE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fapesp}[2025/09/17 Estilos e comandos personalizados do projeto]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONFIGURAÇÕES ABNT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Margens segundo ABNT NBR 14724:2011
+\geometry{left=3cm, right=2cm, top=3cm, bottom=2cm}
+
+% Configuração de legendas de tabelas segundo ABNT
+\captionsetup[table]{
+  font=normalsize,
+  labelfont=normalfont,
+  textfont=normalfont,
+  justification=raggedright,
+  singlelinecheck=false
+}
+
+% Traduções de strings da bibliografia
+\DefineBibliographyStrings{portuguese}{bibliography={Referências}}
+\DefineBibliographyStrings{brazilian}{bibliography={Referências}}
+
+% Cabeçalhos customizados para bibliografia
+\defbibheading{refheading}{%
+  \chapter*{\bibname}
+  \addcontentsline{toc}{chapter}{\bibname}
+}
+% Cabeçalho customizado para publicações
+\defbibheading{pubheading}[Sem Título]{%
+  \section{#1}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NUMERAÇÃO DE FIGURAS, TABELAS E EQUAÇÕES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figuras numeradas por capítulo
+\counterwithin{figure}{chapter}
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+
+% Tabelas numeradas por capítulo
+\counterwithin{table}{chapter}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+
+% Equações numeradas por capítulo (ex.: 2.1, 2.2)
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+% Profundidade de numeração e sumário (até subsubseção)
+\setcounter{tocdepth}{4}  % 1=chapter, 2=section, 3=subsection, 4=subsubsection
+\setcounter{secnumdepth}{4} % exibe números até subsubseção
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% COMANDOS ÚTEIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Fonte para tabelas/figuras
+\newcommand{\fonte}[1]{%
+  \vspace{0.3em}\\
+  \raggedright
+  \fontsize{10}{12}\selectfont Fonte: #1
+}
+
+% Novos tipos de colunas para tabularx
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% Linha horizontal
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FORMATAÇÃO DE TÍTULOS (ABNT)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Seções hierárquicas numeradas: 1.1, 1.1.1 etc.
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+% Nível 1 – Capítulo (\chapter)
+% Caixa alta, negrito, tamanho 12, alinhado à esquerda
+\titleformat{\chapter}[hang]
+  {\normalfont\bfseries\fontsize{12}{18}\selectfont}
+  {\thechapter}{1em}{\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{24pt plus 4pt minus 2pt}{18pt plus 2pt}
+
+% Nível 2 – Seção (\section)
+% Negrito, primeira letra maiúscula, tamanho 12, entrelinha 1,5
+\titleformat{\section}
+  {\normalfont\bfseries\fontsize{12}{18}\selectfont}
+  {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{18pt plus 2pt minus 2pt}{18pt plus 2pt}
+
+% Nível 3 – Subseção (\subsection)
+% Sem negrito, primeira letra maiúscula, tamanho 12, entrelinha 1,5
+\titleformat{\subsection}
+  {\normalfont\fontsize{12}{18}\selectfont}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{12pt plus 2pt minus 2pt}{12pt plus 2pt}
+
+% Nível 4 – Subsubseção (\subsubsection)
+% Sem negrito, primeira letra maiúscula, tamanho 12, entrelinha 1,5
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12}{18}\selectfont}
+  {\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{10pt plus 2pt minus 2pt}{10pt plus 2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONFIGURAÇÕES DE PARÁGRAFO E ESPAÇAMENTO (ABNT)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{1.5cm}   % Recuo de parágrafo
+\onehalfspacing                 % Espaçamento 1,5 linhas
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CABEÇALHO E RODAPÉ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+
+%\setlength{\headheight}{14.5pt}
+\setlength{\headheight}{16pt} %default is 12pt
+\addtolength{\topmargin}{-4pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% METADADOS DO PROJETO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\titulo}[1]{\def\meuTitulo{#1}}                      % Define título
+\newcommand{\tituloIngles}[1]{\def\meuTituloIngles{#1}}          % Define título em inglês
+\newcommand{\numProjeto}[1]{\def\numFAP{#1}}                     % Define número do projeto
+\newcommand{\tipoRelatorio}[1]{\def\tipoRelat{#1 }}              % Define tipo de relatório
+\newcommand{\modalidadeProjeto}[1]{\def\modProjeto{#1}}          % Define modalidade do projeto
+\newcommand{\agFomento}[2]{\def\agFom{#1} \def\siglaAgFom{#2}}   % Agência de fomento
+\newcommand{\coordenador}[1]{\def\nomeCoordenador{#1}}           % Define coordenador
+\newcommand{\instCoordenador}[1]{\def\nomeInstCoordenador{#1}}   % Define vínculo institucional do coordenador
+\newcommand{\cidade}[1]{\def\nomeCidade{#1}}                     % Define cidade
+\newcommand{\universidade}[1]{\def\nomeUniversidade{#1}}         % Define universidade
+\newcommand{\instituicao}[1]{\def\nomeInstituicao{#1}}           % Define instituição
+\newcommand{\periodoVigencia}[1]{\def\periodVig{#1}}             % Define período de vigência
+\newcommand{\periodoRelatorio}[1]{\def\periodRelat{#1}}          % Define período do relatório
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LISTA DE MEMBROS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{etoolbox}
+
+\newcommand{\membros}{}                                          % Lista global de membros
+\newcommand{\adicionaMembro}[1]{\listadd{\membros}{#1}}          % Adiciona membro à lista
+\newcommand{\listarMembros}{%                                    % Como exibir: itemize
+  \begin{itemize}
+    \forlistloop{\item[]}{\membros}
+  \end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ELEMENTOS PRÉ-TEXTUAIS (capa, rosto, resumo, abstract)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CAPA
+\newcommand{\geraTitulo}{
+\clearpage
+\begin{titlepage}
+  %\pagenumbering{gobble}  % Oculta e não conta
+  \thispagestyle{empty}  % Impede exibição do número
+  \begin{center}
+      %\vspace*{-1cm}
+       { \setstretch{.5} 
+         \textsc{\nomeUniversidade} \\
+         \HRule{.2pt}\\
+         \textsc{\nomeInstituicao}
+       }
+
+       \vspace{5.5cm}
+
+       \Large \textbf{\textsc{\meuTitulo}}
+ 	  \HRule{1.5pt} \\ [0.5cm]
+       \linespread{1}
+       \large Relatório 
+       \ifdefined\tipoRelat
+            \tipoRelat
+       \fi
+       do  
+       \ifdefined\modProjeto
+           \modProjeto,
+       \fi
+       fomentado pela \agFom. \\ 
+   	   \HRule{1.5pt} \\ [0.5cm]
+
+       \ifdefined\numFAP
+          Projeto \siglaAgFom~\texttt{\#\numFAP}
+          \\ [0.5cm]
+       \fi
+        Coordenador: \nomeCoordenador, \nomeInstCoordenador
+       
+        \vfill
+       
+        {\normalsize  \nomeCidade, \today}
+ \end{center}
+ \end{titlepage}
+}
+
+% FOLHA DE ROSTO
+\newcommand{\folhaDeRosto}{
+   %\clearpage
+   %\pagenumbering{roman}
+   %\setcounter{page}{1}
+   \thispagestyle{empty}
+   \section*{Informações Gerais do Projeto} 
+   \addcontentsline{toc}{chapter}{Informações Gerais do Projeto}
+   \begin{itemize}
+      \item Título do projeto: 
+            \begin{itemize}\item[] \textbf{\meuTitulo} \end{itemize}
+      \item Nome do pesquisador responsável: 
+            \begin{itemize}\item[]\textbf{\nomeCoordenador, \nomeInstCoordenador}\end{itemize}
+      \item Instituição sede do projeto: 
+            \begin{itemize}
+               \item[]\textbf{\nomeInstituicao \ da \nomeUniversidade} 
+            \end{itemize}
+      \item Equipe de pesquisa (Pesquisadores Principais):
+          \listarMembros 
+      \ifdefined \numFAP
+         \item Número do projeto de pesquisa:
+         \begin{itemize}
+             \item[]\textbf{\numFAP} 
+         \end{itemize}
+      \fi  
+       \item Período de vigência:
+            \begin{itemize}
+               \item[]\textbf{\periodVig} 
+            \end{itemize}
+       \item Período coberto por este relatório científico:
+            \begin{itemize}
+               \item[]\textbf{\periodRelat} 
+            \end{itemize}
+   \end{itemize}
+   \clearpage
+}
+
+% RESUMO
+\newcommand{\Resumo}[1]{\def\conteudoResumo{#1}}
+\newcommand{\geraResumo}{
+   \clearpage
+   \begin{otherlanguage}{portuguese}
+       \addcontentsline{toc}{chapter}{Resumo}
+       \begin{abstract} \thispagestyle{plain} \setcounter{page}{2}
+          \conteudoResumo
+       \end{abstract}
+   \end{otherlanguage} 
+   \clearpage
+}
+
+% ABSTRACT
+\newcommand{\Abstract}[1]{\def\conteudoAbstract{#1}}
+\newcommand{\generateAbstract}{
+   \clearpage
+   \begin{otherlanguage}{english}
+      \addcontentsline{toc}{chapter}{Abstract}
+      \begin{abstract} \thispagestyle{plain} \setcounter{page}{3}
+         \conteudoAbstract
+      \end{abstract}    
+   \end{otherlanguage}
+   \clearpage
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ELEMENTOS PÓS-TEXTUAIS (apêndices e anexos)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% APÊNDICES
+\newcounter{appendixcounter}
+\renewcommand{\theappendixcounter}{\Alph{appendixcounter}}
+\newcommand{\startappendices}{\setcounter{appendixcounter}{0}}
+\newcommand{\appendixsection}[1]{%
+	\refstepcounter{appendixcounter}%
+	\chapter*{APÊNDICE \theappendixcounter\ – #1}%
+	\addcontentsline{toc}{chapter}{APÊNDICE \theappendixcounter\ – #1}%
+}
+
+% ANEXOS
+\newcounter{annexcounter}
+\renewcommand{\theannexcounter}{\Alph{annexcounter}}
+\newcommand{\startannexes}{\setcounter{annexcounter}{0}}
+\newcommand{\annexsection}[1]{%
+	\refstepcounter{annexcounter}%
+	\chapter*{ANEXO \theannexcounter\ – #1}%
+	\addcontentsline{toc}{chapter}{ANEXO \theannexcounter\ – #1}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONTAGEM AUTOMÁTICA DE ORIENTAÇÕES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Explicação:
+% - O ambiente "orientacao" gera uma lista enumerada de IC, Mestrado, Doutorado e Pós-Doutorado.
+% - Cada item da lista atualiza automaticamente o contador correspondente (IC, ME, DR, PD).
+% - Isso permite gerar tabelas automáticas com os totais ao final.
+
+% Persistir em labels (ex.: salvar totais de "pré" e "pos")
+% registercountervalue grava o valor do contador #1 em label #2
+\makeatletter
+\newcommand{\registercountervalue}[2]{%
+	% #1 = nome do contador (string)
+	% #2 = nome da label
+	\protected@edef\@currentlabel{\arabic{#1}}%
+	\label{#2}%
+}
+
+\newcommand{\labelsoma}[3]{%
+	% #1 = nome do label resultado
+	% #2, #3 = labels existentes para somar
+	\begingroup
+	\edef\@tempa{\getrefnumber{#2}}%
+	\edef\@tempb{\getrefnumber{#3}}%
+	\edef\@tempc{\the\numexpr\@tempa + \@tempb\relax}%
+	% Agora grava a label no arquivo .aux
+	\protected@write\@auxout{}{%
+		\string\newlabel{#1}{{\@tempc}{\thepage}}%
+	}%
+	\endgroup
+}
+\makeatother
+
+% ###############################################################
+
+% Contadores por tipo de orientação
+\newcounter{IC}\setcounter{IC}{0} % Iniciação Científica
+\newcounter{ME}\setcounter{ME}{0} % Mestrado
+\newcounter{DR}\setcounter{DR}{0} % Doutorado (abreviatura 'do')
+\newcounter{PD}\setcounter{PD}{0} % Pós-doutorado
+
+% Função para resetar todos os contadores de orientação
+\newcommand{\resetorientations}{%
+  \setcounter{IC}{0}%
+  \setcounter{ME}{0}%
+  \setcounter{DR}{0}%
+  \setcounter{PD}{0}%
+}
+
+% Macro auxiliar: gera título apropriado em texto a partir do código curto
+\newcommand{\makecitationtitle}[1]{%
+  \edef\orititle{}%
+  \IfStrEq{#1}{ic}{\edef\orititle{Iniciação Científica}}{}%
+  \IfStrEq{#1}{me}{\edef\orititle{Mestrado}}{}%
+  \IfStrEq{#1}{do}{\edef\orititle{Doutorado}}{}%
+  \IfStrEq{#1}{po}{\edef\orititle{Pós-Doutorado}}{}%
+  \vspace{\smallskipamount}\indent\textbf{\MakeUppercase{\orititle}}~:%
+}
+
+% Atualiza os contadores IC/ME/DO/PD somando \value{enumi} (itens do enumerate)
+\newcommand{\updateorientations}[1]{%
+  \IfStrEq{#1}{ic}{\addtocounter{IC}{\value{enumi}}}{}%
+  \IfStrEq{#1}{me}{\addtocounter{ME}{\value{enumi}}}{}%
+  \IfStrEq{#1}{do}{\addtocounter{DR}{\value{enumi}}}{}%
+  \IfStrEq{#1}{po}{\addtocounter{PD}{\value{enumi}}}{}%
+}
+
+% Ambiente orientacao: abre enumerate e ao fechar atualiza o contador correspondente
+\newenvironment{orientacao}[1]{%
+  \edef\citacaotipo{#1}%
+  \makecitationtitle{#1}%
+  \begin{enumerate}[label={},leftmargin=2em,itemsep=1ex,topsep=0pt,parsep=0pt]%
+}{%
+  \end{enumerate}%
+  \updateorientations{\citacaotipo}%
+  \par\medskip\medskip
+}
+
+% Salva os contadores atuais em labels com sufixo _pp (pré-projeto)
+\newcommand{\registercountingpp}{%
+  \registercountervalue{IC}{total_ic_pp}%
+  \registercountervalue{ME}{total_me_pp}%
+  \registercountervalue{DR}{total_dr_pp}%
+  \registercountervalue{PD}{total_pd_pp}%
+}
+
+% Salva os contadores atuais em labels com sufixo _pa (pós-projeto)
+\newcommand{\registercountingpa}{%
+  \registercountervalue{IC}{total_ic_pa}%
+  \registercountervalue{ME}{total_me_pa}%
+  \registercountervalue{DR}{total_dr_pa}%
+  \registercountervalue{PD}{total_pd_pa}%
+}
+
+% Consolida somas PP + PA em labels finais total_ic, total_me, etc.
+\newcommand{\registertotalcounting}{%
+  \labelsoma{total_ic}{total_ic_pp}{total_ic_pa}%
+  \labelsoma{total_me}{total_me_pp}{total_me_pa}%
+  \labelsoma{total_dr}{total_dr_pp}{total_dr_pa}%
+  \labelsoma{total_pd}{total_pd_pp}{total_pd_pa}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONTAGEM AUTOMÁTICA DE PUBLICAÇÕES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Explicação:
+% - Cada entrada da bibliografia recebe uma palavra-chave (arti, artn, proci, etc.).
+% - Durante a leitura do .bib, cada keyword incrementa um contador.
+% - Assim, ao final, temos os totais automáticos de cada tipo de publicação.
+
+\newcounter{articount}\newcounter{artncount}
+\newcounter{procicount}\newcounter{procncount}
+\newcounter{subcount}\newcounter{bookcount}
+\newcounter{capcount}\newcounter{otherscount}
+
+\setcounter{articount}{0}\setcounter{artncount}{0}%
+\setcounter{procicount}{0}\setcounter{procncount}{0}%
+\setcounter{subcount}{0}\setcounter{bookcount}{0}%
+\setcounter{capcount}{0}\setcounter{otherscount}{0}%
+
+\AtDataInput{%
+  \ifkeyword{arti}{\stepcounter{articount}}{%
+    \ifkeyword{artn}{\stepcounter{artncount}}{%
+      \ifkeyword{proci}{\stepcounter{procicount}}{%
+        \ifkeyword{procn}{\stepcounter{procncount}}{%
+          \ifkeyword{sub}{\stepcounter{subcount}}{%
+            \ifkeyword{livro}{\stepcounter{bookcount}}{%
+              \ifkeyword{cap}{\stepcounter{capcount}}{%
+                \ifkeyword{outros}{\stepcounter{otherscount}}{}%
+}}}}}}}}
+
+
+% Helpers para impressão condicional de linhas em tabelas
+% aceita contador (nome) no 3º argumento
+\newcommand{\printrowifnotzero}[3]{%
+  \ifnum\value{#3}>0
+    #1 & #2 & \arabic{#3} \\%
+  \fi
+}
+% aceita label (gravado no .aux) no 3º argumento
+\newcommand{\printrowifnotzerolabel}[3]{%
+  \ifnum\getrefnumber{#3}>0
+    #1 & #2 & \getrefnumber{#3} \\%
+  \fi
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FIM DO PACOTE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

@@ -1,0 +1,132 @@
+% Se não tiver nenhum apêndice, excluir este arquivo "apendices.tex", caso contrário preencha de acoro com o template a seguir
+
+%% Descomente esta seção e exclua as seguintes caso queira unificar 
+%\appendixsection{Lista de orientações concluídas a nível de Pós-graduação dos pesquisadores}\label{orientacoes:ps}
+
+\appendixsection{Lista de orientações concluídas a nível de Pós-graduação dos pesquisadores principais}\label{orientacoes:pp}
+
+%% Sugestão: Separar em seções de orientações em andamento e concluídas e subsções para cada modalidade:IC, ME, DR e PD
+\begin{comment}
+\section{Orientações e supervisões em andamento}
+\subsection{Dissertações de mestrado em andamento}
+Não inserido
+\subsection{Teses de doutorado em andamento}
+Não inserido
+\subsection{Pós-Doutorados em andamento}
+Não inserido
+
+\section{Orientações e supervisões concluídas}
+\subsection{Dissertações de mestrado concluídas}
+Não inserido
+\subsection{Teses de doutorado concluídas}
+Não inserido
+\subsection{Pós-Doutorados concluídos}
+Não inserido
+\end{comment}
+
+%% Versão simplificada: não distingue entre "em andamento" ou "concluído", mas lista sequencialmente as modalidades de orientação: IC, ME, DR e PD
+\begin{orientacao}{ic}
+    \item Iniciação Científica 1. Orientador:A
+    \item Iniciação Científica 2. Orientador:C
+\end{orientacao}
+    
+\begin{orientacao}{me}
+    \item Mestrado 1. Orientador:A
+    \item Mestrado 2. Orientador:A
+    \item Mestrado 3. Orientador:B
+    \item Mestrado 4. Orientador:B
+    
+\end{orientacao}
+
+\begin{orientacao}{do}
+    \item Doutorado 1. Orientador:A
+    \item Doutorado 2. Orientador:B
+    \item Doutorado 3. Orientador:C
+    
+\end{orientacao}
+
+\begin{orientacao}{po}
+    \item Pós-Doutorado 1. Orientador:A
+    \item Pós-Doutorado 2. Orientador:B
+\end{orientacao}
+
+\registercountingpp % Se remover este comando a contagem automática não funcionará
+\resetorientations % Se remover este comando a contagem automática não funcionará
+\clearpage
+\appendixsection{Lista de orientações concluídas a nível de Pós-graduação dos pesquisadores associados}\label{orientacoes:pa}
+
+%% Sugestão: Separar em seções de orientações em andamento e concluídas e subsções para cada modalidade:IC, ME, DR e PD
+\begin{comment}
+\section{Orientações e supervisões em andamento}
+\subsection{Dissertações de mestrado em andamento}
+Não inserido
+\subsection{Teses de doutorado em andamento}
+Não inserido
+\subsection{Pós-Doutorados em andamento}
+Não inserido
+
+\section{Orientações e supervisões concluídas}
+\subsection{Dissertações de mestrado concluídas}
+Não inserido
+\subsection{Teses de doutorado concluídas}
+Não inserido
+\subsection{Pós-Doutorados concluídos}
+Não inserido
+\end{comment}
+
+
+%% Versão simplificada: não distingue entre "em andamento" ou "concluído", mas lista sequencialmente as modalidades de orientação: IC, ME, DR e PD
+\begin{orientacao}{ic}
+    \item Iniciação Científica 1. Orientador:D
+    
+\end{orientacao}
+
+\begin{orientacao}{me}
+    \item Mestrado 1. Orientador:D
+    \item Mestrado 4. Orientador:G
+    
+\end{orientacao}
+
+\begin{orientacao}{do}
+    \item Doutorado 1. Orientador:E
+    \item Doutorado 2. Orientador:F
+    
+\end{orientacao}
+
+\begin{orientacao}{po}
+    \item Pós-Doutorado 1. Orientador:D
+\end{orientacao}
+
+
+\registercountingpa  % Se remover este comando a contagem automática não funcionará
+\registertotalcounting % Se remover este comando a contagem automática não funcionará
+
+\appendixsection{Lista de publicações} \label{pubs:all}
+
+%%%%%%%%%%%%%%%\section{Artigos em periódicos nacionais
+\nocite{*}
+\printbibliography[omitnumbers=true, keyword={artn},heading=pubheading, title={Artigos em periódicos nacionais}]
+
+%%%%%%%%%%%%%%%\section{Artigos em periódicos internacionais}
+%\nocite{*}
+\printbibliography[omitnumbers=true, keyword={arti},heading=pubheading, title={Artigos em periódicos internacionais}]
+
+%%%%%%%%%%%%%%%\section{Artigos em congressos completos}
+%\nocite{*}
+%\printbibliography[omitnumbers=true, keyword={proc},heading=bibpub, title={Artigos em congressos completos}]
+ 
+\printbibliography[omitnumbers=true, keyword={procn},heading=pubheading, title={Artigos em congressos nacionais completos}]
+
+\printbibliography[omitnumbers=true, keyword={proci},heading=pubheading, title={Artigos em congressos internacionais completos}]
+    
+%%%%%%%%%%%%%%%\section{Capítulos de Livros}
+%\nocite{*}
+\printbibliography[omitnumbers=true, keyword={cap},heading=pubheading, title={Capítulos de Livros}]
+
+%%%%%%%%%%%%%%%\section{Livros}
+%\nocite{*}
+\printbibliography[omitnumbers=true, keyword={livro},heading=pubheading, title={Livros}]
+
+%\nocite{*}
+\printbibliography[omitnumbers=true, keyword={outros},heading=pubheading, title={Outras publicações}]
+

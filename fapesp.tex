@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% arquivo: fapesp.tex
+% Relatório FAPESP - Projetos Temáticos e CPA/CPE
+% Autor: André L. F. Lourenço
+% A capa e folha de informações foi inspirado no template de: André Leon S. Gradvohl (https://www.overleaf.com/latex/templates/modelo-de-relatorio-fapesp/ybkwpzbzjscn)
+% Última revisão: 17/09/2025
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\def\input@path{{abnt/}}
+\makeatother 
+
+\documentclass[12pt,a4paper,english,brazil]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PACOTES BÁSICOS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lmodern}            % Fonte Latin Modern
+\usepackage[T1]{fontenc}        % Codificação das fontes
+\usepackage[utf8]{inputenc}     % Codificação do documento (acentos)
+\usepackage[english,portuguese,main=brazil]{babel} % Idiomas
+\usepackage{times}              % Fonte Times New Roman
+\usepackage{graphicx}           % Inclusão de figuras
+\usepackage{color,xcolor}       % Controle de cores
+\usepackage{indentfirst}        % Indenta o primeiro parágrafo de cada seção
+\usepackage{setspace}           % Controle de espaçamento
+\usepackage[a4paper]{geometry}  % Configuração de margens
+\usepackage{titlesec}           % Controle dos títulos
+\usepackage{fancyhdr}           % Cabeçalhos e rodapés
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black]{hyperref}% Links clicáveis
+\usepackage{caption}            % Personalização de legendas
+\usepackage{chngcntr}           % para controlar numeração
+\usepackage{url}                % URLs formatadas corretamente
+\usepackage{booktabs}           % padrão ABNT para linhas horizontais
+\usepackage{multirow}           % para mesclagem de linhas
+\usepackage{multicol}           % para mesclagem de colunas
+\usepackage{etoolbox}
+\usepackage{tabularx}           % tabelas com largura ajustável
+\usepackage{amsmath}            % Pacotes matemáticos
+%\usepackage{subfigure}          % Subfiguras (obsoleto, usar subcaption)
+\usepackage{subcaption}         % Subfiguras
+\usepackage{appendix}           % Controle de apêndices
+\usepackage{float}              % Controle de posicionamento de floats
+\usepackage{csquotes}           % Citações avançadas
+\usepackage{refcount}           % Para \getrefnumber
+\usepackage{enumitem}           % For customizing enumerate
+\usepackage{xstring}
+\usepackage{comment}            % Habilita comentários multilinha
+
+% Texto fictício para testes
+\usepackage{lipsum}             % Texto de preenchimento
+
+% Pacotes opcionais (comentados, usar se necessário)
+%\usepackage{ifthen}            
+%\usepackage{pdfpages}           % Inserir PDF externo
+%\usepackage{eso-pic}            % Inserir texto sobreposto
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BIBLIOGRAFIA (usando biblatex + estilo ABNT da pasta abnt/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+    backend=biber,
+    style=abnt-numeric,
+    sorting=none,
+    language=brazil,
+    defernumbers=true
+]{biblatex}
+
+% Carregar pacote personalizado
+\usepackage{fapesp}
+
+\addbibresource{Pós-Textual/referencias.bib}
+\addbibresource{Pós-Textual/publicacoes.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSERÇÃO DO CONTEÚDO PRÈ-TEXTUAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Pré-Textual/capa}
+\input{Pré-Textual/folhadeinformacoes}
+\input{Pré-Textual/resumo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INÍCIO DO DOCUMENTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagenumbering{roman}       % Define a numeração inicial em romanos (versão normal)
+\geraTitulo                 % Gera folha de título
+\folhaDeRosto               % Gera folha de rosto
+\geraResumo                 % Gera Resumo (versão normal)
+\generateAbstract           % Gera Abstract (versão normal)
+
+% Sumário
+\thispagestyle{plain}
+\tableofcontents
+\clearpage
+
+% Textual
+\pagenumbering{arabic}
+\begin{refsection}
+%\input{snippets}
+\include{Textual/cap1_introducao}
+\include{Textual/cap2_atividades_realizadas}
+\include{Textual/cap3_planejamento_atividades}
+\include{Textual/cap4_prod_cientifica}
+\include{Textual/cap5_conclusao}
+% Referências
+\clearpage
+%\nocite{*}
+\printbibliography[heading=refheading]
+%\printbibliography[keyword={ref},heading=refheading]
+
+\end{refsection}
+
+% Pós-Textual
+\newpage
+\begin{refsection}
+\IfFileExists{Pós-Textual/apendices.tex}{%
+    \startappendices
+    \include{Pós-Textual/apendices}
+    
+}{}
+\end{refsection}
+
+\IfFileExists{Pós-Textual/anexos.tex}{%
+   \startannexes
+   \include{Pós-Textual/anexos}
+}{}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FIM DO DOCUMENTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

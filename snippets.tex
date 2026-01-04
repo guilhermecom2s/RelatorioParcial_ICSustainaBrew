@@ -1,0 +1,238 @@
+\setcounter{chapter}{-1} 
+
+\chapter{Snippet Codes para Figuras, Tabelas e Equações}
+
+\section{Exemplos de Figuras ABNT}
+
+As figuras a seguir demonstram exemplos de diferentes disposições de figuras e subfiguras
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figuras/FAPESP.png}
+	\caption{Exemplo de figura única centralizada, ajustada para ocupar 90\% da largura da linha}
+	\label{fig:unica}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[height=3.5cm]{Figuras/FAPESP.jpg}
+        \includegraphics[height=3.5cm]{Figuras/CEMEAI.png}
+    \end{subfigure}
+
+    \begin{subfigure}{\linewidth}
+        \centering
+        \includegraphics[height=3.5cm]{Figuras/CEMEAI.png}
+        \includegraphics[height=3.5cm]{Figuras/FAPESP.jpg}
+    \end{subfigure}
+    \caption{Exemplo de quadro de figuras (mosaico), altura fixa}
+    \label{fig:alturafixa1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[height=3.5cm]{Figuras/FAPESP.jpg}
+        \caption{FAPESP \cite{fapesp}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[height=3.5cm]{Figuras/CEMEAI.png}
+        \caption{CeMEAI \cite{cemeai}}
+    \end{subfigure}
+    \caption{Exemplo de subfiguras a) e b) de altura fixa. Ideal para imagens de tamanhos e aspectos diferentes}
+    \label{fig:alturafixa2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figuras/FAPESP.jpg}
+        \caption{FAPESP \cite{fapesp}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figuras/CEMEAI.png}
+        \caption{CeMEAI \cite{cemeai}}
+    \end{subfigure}
+    \caption{Exemplo de subfiguras a) e b) de largura fixa, não é ideal para imagens de tamanhos e aspectos diferentes}
+    \label{fig:largurafixa1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figuras/CEMEAI.png}
+        \caption{CeMEAI \cite{cemeai}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figuras/CEMEAI.png}
+        \caption{CeMEAI \cite{cemeai}}
+    \end{subfigure}
+    \caption{Exemplo de subfiguras a) e b) de largura fixa, ideal para imagens de tamanhos e aspectos semelhantes}
+    \label{fig:largurafixa2}
+\end{figure}
+
+
+
+\section{Exemplos de Tabelas ABNT}
+
+A seguir modelos de tabelas no formato ABNT.
+
+\begin{table}[H]
+\centering
+\caption{Exemplo de tabela 3x4 no formato ABNT.}\label{tab:abnt}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Coluna 1} & \textbf{Coluna 2} & \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\midrule
+Linha 1 & Dado 1 & Dado 2 & Dado 3 \\
+Linha 2 & Dado 4 & Dado 5 & Dado 6 \\
+Linha 3 & Dado 7 & Dado 8 & Dado 9 \\
+\bottomrule
+\end{tabular}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Exemplo de tabela 3x4 no formato ABNT. Versão estética (colunas centralizadas e distribuidas).}\label{tab:abnt_ex}
+\begin{tabularx}{\linewidth}{CCCC}
+\toprule
+\textbf{Coluna 1} & \textbf{Coluna 2} & \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\midrule
+Linha 1 & Dado 1 & Dado 2 & Dado 3 \\
+Linha 2 & Dado 4 & Dado 5 & Dado 6 \\
+Linha 3 & Dado 7 & Dado 8 & Dado 9 \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Exemplo de tabela 3x4 com mesclagem das colunas 3 e 4 no cabeçalho (ABNT).}\label{tab:abnt_mescla_colunas}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Coluna 1} & \textbf{Coluna 2} &  \multicolumn{2}{c}{\textbf{Grupo de Colunas}} \\
+\cmidrule(lr){3-4}
+ & &  \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\midrule
+Linha 1 & Dado 1 & Dado 2 & Dado 3\\
+Linha 2 & Dado 4 & Dado 5 & Dado 6\\
+Linha 3 & Dado 7 & Dado 8 & Dado 9\\
+\bottomrule
+\end{tabular}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\begin{table}[H]
+\caption{Exemplo de tabela 3x4 com mesclagem das colunas 3 e 4 no cabeçalho (ABNT). Versão estética (colunas centralizadas e distribuidas).}\label{tab:abnt_mescla_colunas_ex}
+\begin{tabularx}{\textwidth}{CCCC}
+\hline
+\textbf{Coluna 1} & \textbf{Coluna 2} & \multicolumn{2}{c}{\textbf{Grupo de Colunas}} \\
+\cline{3-4}
+ & & \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\hline
+Linha 1 & Dado 1 & Dado 2 & Dado 3 \\
+Linha 2 & Dado 4 & Dado 5 & Dado 6 \\
+Linha 3 & Dado 7 & Dado 8 & Dado 9 \\
+\hline
+\end{tabularx}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Exemplo de tabela com mesclagem das linhas 1 e 2 na última coluna (ABNT)}\label{tab:abnt_mesclagem_linhas}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Coluna 1} & \textbf{Coluna 2} & \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\midrule
+Linha 1 & Dado 1 & Dado 2 & \multirow{2}{*}{Mesclado} \\
+Linha 2 & Dado 3 & Dado 4 & \\
+Linha 3 & Dado 5 & Dado 6 & Dado 7 \\
+\bottomrule
+\end{tabular}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Exemplo de tabela com mesclagem das linhas 1 e 2 na última coluna (ABNT). Versão estética (colunas centralizadas e distribuidas)}\label{tab:abnt_mesclagem_linhas_ex}
+\begin{tabularx}{\textwidth}{CCCC}
+\toprule
+\textbf{Coluna 1} & \textbf{Coluna 2} & \textbf{Coluna 3} & \textbf{Coluna 4} \\
+\midrule
+Linha 1 & Dado 1 & Dado 2 & \multirow{2}{*}{Mesclado} \\
+Linha 2 & Dado 3 & Dado 4 & \\
+Linha 3 & Dado 5 & Dado 6 & Dado 7 \\
+\bottomrule
+\end{tabularx}
+\fonte{Elaborado pelo autor (2025).}
+\end{table}
+
+
+\section{Posicionamento de Figuras e Tabelas em \LaTeX}
+
+Em \LaTeX, figuras e tabelas são tratadas como \emph{floats}, ou seja, elementos que podem "flutuar" pela página para otimizar a disposição do conteúdo e evitar quebras de página indesejadas. Para controlar a posição desses elementos, utiliza-se um parâmetro de posicionamento entre colchetes no início do ambiente, como em \verb|\begin{figure}[pos]| ou \verb|\begin{table}[pos]|.  
+
+Os principais comandos de posicionamento são:
+
+\begin{itemize}
+    \item \textbf{h (here)}: indica que a figura ou tabela deve ser posicionada aproximadamente \emph{no ponto do documento onde foi inserida}. O LaTeX pode ajustá-la se não houver espaço suficiente.
+    
+    \item \textbf{t (top)}: posiciona a figura ou tabela \emph{no topo da página}. É útil quando se quer destacar o elemento no início da página.
+    
+    \item \textbf{b (bottom)}: posiciona a figura ou tabela \emph{na parte inferior da página}, evitando interromper o fluxo do texto.
+    
+    \item \textbf{p (page)}: coloca a figura ou tabela em uma \emph{página dedicada apenas a floats}, geralmente quando não há espaço suficiente na página atual.
+    
+    \item \textbf{H (here absoluto)}: força o posicionamento \emph{exatamente no ponto do documento onde o comando aparece}. Para utilizá-lo, é necessário carregar o pacote \texttt{float} no preâmbulo:
+    \begin{verbatim}
+\usepackage{float}
+    \end{verbatim}
+\end{itemize}
+
+Também é possível combinar opções, dando mais flexibilidade ao LaTeX. Por exemplo:
+\begin{verbatim}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imagem.png}
+    \caption{Exemplo de figura com múltiplas opções.}
+\end{figure}
+\end{verbatim}
+
+Nesse caso, o LaTeX tentará colocar a figura na ordem de preferência: \texttt{h} (aqui), \texttt{t} (topo), \texttt{b} (fundo) ou \texttt{p} (página de floats), escolhendo a posição que melhor se ajusta ao layout.
+
+\section{Exemplos de equações ABNT}
+
+A seguir exemplos de equações.
+
+A famosa fórmula da equivalência massa-energia é dada pela
+equação \eqref{eq:energia}.
+
+\begin{equation}
+    E = mc^2
+\label{eq:energia}
+\end{equation}
+
+Outra equação importante é a segunda lei de Newton (~\ref{eq:newton}):
+
+\begin{equation}
+    F = ma
+\label{eq:newton}
+\end{equation}

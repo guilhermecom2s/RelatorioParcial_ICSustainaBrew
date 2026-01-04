@@ -1,0 +1,99 @@
+%Neste capítulo, ao invés de uma mera sugestão, apresentamos um template que pode ser utilizado com pequenas alterações
+
+\chapter{Produção científica}
+
+Este capítulo apresenta de forma resumida e organizada a produção científica vinculada ao ~\modProjeto ~\meuTitulo. Serão abordados os principais resultados relacionados à formação de pesquisadores, à geração de conhecimento por meio de publicações e edições, e ao reconhecimento recebido pelos pesquisadores em prêmios e distinções. O objetivo é apresentar de forma geral o impacto e a relevância das atividades científicas, destacando quantidade e qualidade das contribuições, com mais detalhes disponíveis nos referidos apêndices.
+
+\section{Orientações}
+
+O ~\modProjeto ~\meuTitulo atua na formação de profissionais qualificados por meio da orientação em iniciação científica, dissertações de mestrado, teses de doutorado e pós-doutorados em diferentes áreas do conhecimento. As orientações registradas no período avaliado refletem o comprometimento dos pesquisadores na condução de projetos com impacto científico, tecnológico e social. A Tabela ~\ref{tab:formacao_pesquisadores} a seguir apresenta essas orientações de forma consolidada, destacando a participação do centro na pós-graduação e seu papel na formação de novos especialistas. A lista completa das orientações dos pesquisadores principais e associados pode ser consultada nos Apêndices~\ref{orientacoes:pp} e~\ref{orientacoes:pa}, respectivamente.
+
+\begin{table}[H]
+	\centering
+	\caption{Formação de Recursos Humanos em Nível de Pós-Graduação pelos Pesquisadores Principais (PP) e Pesquisadores Associados (PA)}
+	\begin{tabularx}{\textwidth}{LCCC}
+		\toprule
+		\textbf{Formação} & \textbf{Orientações PP} & \textbf{Orientações PA} & \textbf{Orientações Totais}\\
+		\midrule
+        Iniciação Científica & \getrefnumber{total_ic_pp} & \getrefnumber{total_ic_pa} & \getrefnumber{total_ic}\\ 
+		Mestres & \getrefnumber{total_me_pp} & \getrefnumber{total_me_pa} & \getrefnumber{total_me}\\ 
+		Doutores  & \getrefnumber{total_dr_pp} & \getrefnumber{total_dr_pa} & \getrefnumber{total_dr}\\ 
+		Pós-doutores & \getrefnumber{total_pd_pp} & \getrefnumber{total_pd_pa} & \getrefnumber{total_pd}\\ 
+		\bottomrule
+	\end{tabularx}
+	\label{tab:formacao_pesquisadores}
+\end{table}
+
+
+\section{Publicações e edições}
+
+A produção científica do ~\modProjeto ~\meuTitulo ~ reflete a excelência e o empenho de seus pesquisadores em gerar e disseminar conhecimento, consolidando resultados por meio de artigos em periódicos e congressos, tanto no âmbito nacional quanto internacional, além de capítulos de livros, livros e outras publicações. Essa diversidade evidencia o caráter amplo e qualificado da produção intelectual, promovendo diálogo com a comunidade acadêmica, o setor produtivo e a sociedade. A Tabela ~\ref{tab:publicacoes} a seguir organiza as publicações registradas no período analisado, destacando o volume e o alcance das contribuições científicas e técnicas do ~\meuTitulo, com a relação completa disponível no Apêndice~\ref{pubs:all} deste relatório.
+
+
+% Descomente para testar os contadores exibindo os valores no documento
+\begin{comment}
+\textbf{Resumo:}\\
+Artigos no .bib: \thearticount, citados: \thearticitedcount \\
+Artigos Nacionais: \theartncount, citados: \theartncitedcount \\
+Proceedings Internacionais: \theprocicount, citados: \theprocicitedcount \\
+Proceedings Nacionais: \theprocncount, citados: \theprocncitedcount \\
+Submissões: \thesubcount, citados: \thesubcitedcount \\
+Livros: \thebookcount, citados: \thebookcitedcount \\
+Capítulos: \thecapcount, citados: \thecapcitedcount \\
+Outros: \theotherscount, citados: \theotherscitedcount
+\end{comment}
+
+
+%Creating a table to summarize publications and submissions
+% Style 1 - Fixed Table  
+\begin{comment}
+\begin{table}[H]
+\centering
+    \caption{Publicações e edições}
+    \begin{tabularx}{\textwidth}{LLC}
+        \toprule
+        \textbf{Tipo} & \textbf{Âmbito da Publicação} & \textbf{Quantidade} \\
+        \midrule
+        Artigos em periódicos & Nacionais & \theartncount\\
+        & Internacionais & \thearticount \\
+        \midrule
+        Artigos em congressos & Nacionais & \theprocncount \\
+        & Internacionais & \theprocicount \\
+        \midrule
+        Submissões & & \thesubcount \\
+        Livros escritos & & \thebookcount \\
+        Capítulos de livros & & \thecapcount \\
+        Outros & & \theotherscount \\
+        \bottomrule
+    \end{tabularx}
+     \label{tab:publicacoes}
+\end{table}
+\end{comment}
+
+
+% Style 2 - Dynamic Table  (null values are not shown)
+\begin{table}[H]
+	\centering
+	\caption{Publicações e edições}
+	\begin{tabularx}{\textwidth}{LLC}
+		\toprule
+		\textbf{Tipo} & \textbf{Âmbito da Publicação} & \textbf{Quantidade} \\
+		\midrule
+		\printrowifnotzero{Artigos em periódicos}{Nacionais}{artncount}
+		\printrowifnotzero{Artigos em periódicos}{Internacionais}{articount}
+        
+		\printrowifnotzero{Artigos em congressos}{Nacionais}{procncount}
+		\printrowifnotzero{Artigos em congressos}{Internacionais}{procicount}
+        
+		\printrowifnotzero{Submissões}{}{subcount}
+		\printrowifnotzero{Livros escritos}{}{bookcount}
+		\printrowifnotzero{Capítulos de livros}{}{capcount}
+		\printrowifnotzero{Outros}{}{otherscount}
+		\bottomrule
+	\end{tabularx}
+	\label{tab:publicacoes}
+\end{table}
+
+\section{Prêmios recebidos}
+
+\lipsum[1]
