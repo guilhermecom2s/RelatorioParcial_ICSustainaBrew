@@ -2436,53 +2436,6 @@
     <bcf:citekey order="1">vial2021understanding</bcf:citekey>
     <bcf:citekey order="2">ghobakhloo2020industry</bcf:citekey>
     <bcf:citekey order="3">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="4">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="5">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="6">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="7">schallmo2017digital</bcf:citekey>
-    <bcf:citekey order="8">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="9">vial2021understanding</bcf:citekey>
-    <bcf:citekey order="10">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="11">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="12">schallmo2017digital</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 2 -->
-  <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/referencias.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/publicacoes.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="2">
-    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="1"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="2"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="4">schallmo2017digital</bcf:citekey>
+    <bcf:citekey order="5">vial2021understanding</bcf:citekey>
+    <bcf:citekey order="5">sestino2020internet</
