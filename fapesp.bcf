@@ -2438,4 +2438,105 @@
     <bcf:citekey order="3">ghobakhloo2020industry</bcf:citekey>
     <bcf:citekey order="4">schallmo2017digital</bcf:citekey>
     <bcf:citekey order="5">vial2021understanding</bcf:citekey>
-    <bcf:citekey order="5">sestino2020internet</
+    <bcf:citekey order="5">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="6">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="7">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="7">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="8">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="9">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="10">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="11">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="12">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="13">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="14">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="15">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="15">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="16">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="17">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="17">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="18">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="19">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="20">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="21">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="22">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="22">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="23">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="24">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="25">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="25">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="26">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="26">chiang2016fog</bcf:citekey>
+    <bcf:citekey order="27">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="28">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="28">chiang2016fog</bcf:citekey>
+    <bcf:citekey order="29">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="30">shi2016edge</bcf:citekey>
+    <bcf:citekey order="31">shi2016edge</bcf:citekey>
+    <bcf:citekey order="32">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="33">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="34">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="35">shi2016edge</bcf:citekey>
+    <bcf:citekey order="36">satyanarayanan2015edge</bcf:citekey>
+    <bcf:citekey order="37">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="37">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="37">shi2016edge</bcf:citekey>
+    <bcf:citekey order="37">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="38">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="38">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="39">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="39">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="40">shi2016edge</bcf:citekey>
+    <bcf:citekey order="40">satyanarayanan2015edge</bcf:citekey>
+    <bcf:citekey order="41">vial2021understanding</bcf:citekey>
+    <bcf:citekey order="42">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="43">schallmo2017digital</bcf:citekey>
+    <bcf:citekey order="44">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="45">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="46">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="47">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="48">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="49">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="50">chiang2016fog</bcf:citekey>
+    <bcf:citekey order="51">shi2016edge</bcf:citekey>
+    <bcf:citekey order="52">satyanarayanan2015edge</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/referencias.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/publicacoes.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
+    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="1"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="2"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

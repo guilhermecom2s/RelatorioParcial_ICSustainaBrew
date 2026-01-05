@@ -1,0 +1,48 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{Informações Gerais do Projeto}{i}{Doc-Start}%
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{Resumo}{ii}{Doc-Start}%
+\babel@toc {brazil}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{iii}{Doc-Start}%
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Fundamentação teórica}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Transformação digital, Indústria 4.0 e arquiteturas digitais}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Computação em nuvem (Cloud Computing)}{3}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}Características essenciais e modelos de serviço}{3}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Nuvem como habilitador da transformação digital e da Indústria 4.0}{4}{subsubsection.1.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.3}Vantagens: escalabilidade, agilidade e centralização de dados}{4}{subsubsection.1.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.1.2.4}Limitações e trade-offs: latência, conectividade, segurança e lock-in}{4}{subsubsection.1.1.2.4}%
+\contentsline {subsection}{\numberline {1.1.3}Computação em névoa (Fog Computing)}{5}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Computação de borda (Edge Computing)}{6}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Arquiteturas híbridas cloud--fog--edge como habilitadoras da transformação digital}{7}{subsection.1.1.5}%
+\contentsline {chapter}{\numberline {2}Atividades realizadas no período}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Projeto 1}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Frente A}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Frente B}{10}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Frente C}{10}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Projeto 2}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Eventos}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Participação em Eventos}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Eventos Organizados pelo Projeto}{10}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Planejamento de atividades}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Produção científica}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Orientações}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Publicações e edições}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Prêmios recebidos}{13}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusão}{14}{chapter.5}%
+\contentsline {chapter}{Referências}{15}{chapter*.5}%
+\contentsline {chapter}{APÊNDICE A\ – Lista de orientações concluídas a nível de Pós-graduação dos pesquisadores principais}{16}{chapter*.6}%
+\contentsline {chapter}{APÊNDICE B\ – Lista de orientações concluídas a nível de Pós-graduação dos pesquisadores associados}{17}{chapter*.7}%
+\contentsline {chapter}{APÊNDICE C\ – Lista de publicações}{18}{chapter*.8}%
+\contentsline {section}{\numberline {5.1}Artigos em periódicos nacionais}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Artigos em periódicos internacionais}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Artigos em congressos nacionais completos}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Artigos em congressos internacionais completos}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Capítulos de Livros}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Livros}{19}{section.5.6}%
+\contentsline {chapter}{ANEXO A\ – Relatórios Sintéticos dos Bolsistas}{20}{chapter*.9}%
+\contentsline {section}{\numberline {5.7}Ana Júlia - Bolsista de IC - Tema de IC}{20}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Subseção detalhada de Ana Júlia (caso precise)}{20}{subsection.5.7.1}%
+\contentsline {section}{\numberline {5.8}João Antônio - Bolsista de PD - Tema de PD}{20}{section.5.8}%
