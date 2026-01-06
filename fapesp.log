@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.29)  4 JAN 2026 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.12.29)  5 JAN 2026 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,7 +804,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 86.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./fapesp.aux (./Textual/cap1_introducao.aux) (./Textual/cap2_atividades_realizadas.aux) (./Textual/cap3_planejamento_atividades.aux) (./Textual/cap4_prod_cientifica.aux) (./Textual/cap5_conclusao.aux) (./PÃ³s-Textual/apendices.aux) (./PÃ³s-Textual/anexos.aux))
+) (./fapesp.aux (./Textual/cap1_introducao.aux) (./Textual/cap2_atividades_realizadas.aux) (./Textual/cap3_planejamento_atividades.aux))
 \openout1 = `fapesp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -1132,7 +1132,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...{\numberline {5}ConclusÃ£o}{14}{chapter.5}
+l.33 ...Planejamento de atividades}{15}{chapter.3}
                                                   % [1
 
 
@@ -1157,141 +1157,70 @@ Cap\'{\i }tulo 1.
 
 
 
-] [2] [3]
-Overfull \hbox (26.74182pt too wide) in paragraph at lines 82--83
+] [2] [3] [4]
+Overfull \hbox (26.74182pt too wide) in paragraph at lines 92--93
 []\T1/ptm/b/n/12 Economias de es-cala\T1/ptm/m/n/12 : pro-ve-do-res po-dem oti-mi-zar uti-li-za-ção e cus-tos ener-gé-ti-cos/operacionais,
  []
 
-[4] [5] [6]
-<./Figuras/cloud_edge_fog.png, id=348, 6022.5pt x 4143.48pt>
+[5] [6] [7]
+<./Figuras/cloud_edge_fog.png, id=290, 6022.5pt x 4143.48pt>
 File: ./Figuras/cloud_edge_fog.png Graphic file (type png)
 <use ./Figuras/cloud_edge_fog.png>
-Package pdftex.def Info: ./Figuras/cloud_edge_fog.png  used on input line 159.
+Package pdftex.def Info: ./Figuras/cloud_edge_fog.png  used on input line 169.
 (pdftex.def)             Requested size: 318.66948pt x 219.19876pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 160.
+(Font)              <10.95> on input line 170.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <./Figuras/cloud_edge_fog.png>]) [9]
+[8] [9 <./Figuras/cloud_edge_fog.png>] [10] [11]) [12]
 \openout2 = `Textual/cap2_atividades_realizadas.aux'.
 
  (./Textual/cap2_atividades_realizadas.tex
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-) [10
+[13
 
 
 
 
-]
+]) [14]
 \openout2 = `Textual/cap3_planejamento_atividades.aux'.
 
  (./Textual/cap3_planejamento_atividades.tex
 Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-) [11
+) [15
 
 
 
 
-]
-\openout2 = `Textual/cap4_prod_cientifica.aux'.
-
- (./Textual/cap4_prod_cientifica.tex
-Cap\'{\i }tulo 4.
-[12
-
-
-
-
-] Excluding 'comment' comment. Excluding 'comment' comment.) [13]
-\openout2 = `Textual/cap5_conclusao.aux'.
-
- (./Textual/cap5_conclusao.tex
-Cap\'{\i }tulo 5.
-) [14
+] [16
 
 
 
 
 ]
-Package biblatex Info: Reference section=0 on input line 114.
- [15
-
-
-
-
-]
-\c@blx@maxsegment@2=\count476
-\c@blx@sectionciteorder@2=\count477
-Package biblatex Info: Reference section=2 on input line 118.
-Package biblatex Info: Setting label 'refsection:2' on input line 118.
-\openout2 = `PÃ³s-Textual/apendices.aux'.
-
- (./PÃ³s-Textual/apendices.tex
-Overfull \hbox (31.73083pt too wide) in paragraph at lines 6--6
-|\T1/ptm/b/n/12 APÊNDICE A ^^U LISTA DE ORI-EN-TA-ÇÕES CON-CLUÍ-DAS A NÍ-VEL DE PÓS-GRADUAÇÃO
- []
-
-Excluding 'comment' comment. [16
-
-
-]
-Overfull \hbox (31.07079pt too wide) in paragraph at lines 56--56
-|\T1/ptm/b/n/12 APÊNDICE B ^^U LISTA DE ORI-EN-TA-ÇÕES CON-CLUÍ-DAS A NÍ-VEL DE PÓS-GRADUAÇÃO
- []
-
-Excluding 'comment' comment. [17
-
-
-] [18
-
-]
-
-Package biblatex Warning: Keyword 'outros' not found on input line 131.
-
-
-LaTeX Warning: Empty bibliography on input line 131.
-
-) [19]
-Package biblatex Info: Reference section=0 on input line 124.
-\openout2 = `PÃ³s-Textual/anexos.aux'.
-
- (./PÃ³s-Textual/anexos.tex) [20
-
-
-
-
-] (./fapesp.aux (./Textual/cap1_introducao.aux) (./Textual/cap2_atividades_realizadas.aux) (./Textual/cap3_planejamento_atividades.aux) (./Textual/cap4_prod_cientifica.aux) (./Textual/cap5_conclusao.aux) (./PÃ³s-Textual/apendices.aux) (./PÃ³s-Textual/anexos.aux))
+Package biblatex Info: Reference section=0 on input line 116.
+ [17] (./fapesp.aux (./Textual/cap1_introducao.aux) (./Textual/cap2_atividades_realizadas.aux) (./Textual/cap3_planejamento_atividades.aux))
 Package rerunfilecheck Info: File `fapesp.out' has not changed.
-(rerunfilecheck)             Checksum: BCB69EF16EAEBF05C94BC699D4FDEB56;10072.
+(rerunfilecheck)             Checksum: 19176F6E0A98BC32920420BF3EB44B35;7313.
 Package logreq Info: Writing requests to 'fapesp.run.xml'.
 \openout1 = `fapesp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24336 strings out of 478287
- 440370 string characters out of 5849288
- 1346074 words of memory out of 5000000
- 41906 multiletter control sequences out of 15000+600000
- 523293 words of font info for 68 fonts, out of 8000000 for 9000
+ 24055 strings out of 478287
+ 431891 string characters out of 5849288
+ 1334481 words of memory out of 5000000
+ 41698 multiletter control sequences out of 15000+600000
+ 523914 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,98p,1174b,6028s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fapesp.pdf (26 pages, 11336338 bytes).
+Output written on fapesp.pdf (23 pages, 11340011 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,5 @@
 \chapter{Introdução}
 
-
 %Seções sugeridas:
 
 %\section{Objetivos}
@@ -14,8 +13,19 @@
 %\subsubsection{Órgãos Públicos}
 
 %\subsubsection{Empresas}
+\section{Enunciando do problema}
+Empresas que produzem cerveja em pequena escala, conhecidas como microcervejarias ou cervejarias artesanais, diferenciam-se das grandes corporações multinacionais que operam com produção em larga escala. As microcervejarias se destacam por fabricar uma ampla variedade de estilos e sabores complexos, geralmente em lotes reduzidos \cite{garavaglia2018craft, elzinga2015craft}. Considerando que essas empresas geralmente dispõem de recursos limitados para investimentos em pesquisa e desenvolvimento, tecnologias como inteligência artificial e internet das coisas podem oferecer vantagens competitivas, especialmente por suas características de baixo custo \cite{dias2021cloud}. Pequenas e médias empresas devem, portanto, avaliar a adoção dessas novas tecnologias e acompanhar a tendência de transformação digital em seus processos \cite{teng2022sme}.
+
+Dias et al.~\cite{dias2023microbrewery} destacam que o grau de automação nas microcervejarias ainda é reduzido, sendo necessárias melhorias para aumentar a transparência do processo produtivo. Além disso, diversos indicadores cruciais de desempenho não são monitorados ou o são de forma manual, o que pode resultar em imprecisões nos dados do processo.
+
+Nesse cenário, este projeto de pesquisa tem como objetivo identificar o perfil e as necessidades das microcervejarias. A partir desse diagnóstico, pretende-se investigar e desenvolver arquiteturas de transformação digital aplicáveis ao processo produtivo, priorizando soluções de custo-efetivo.
+
+Outra contribuição do projeto está na análise dos dados gerados, com o intuito de aproveitá-los de forma mais ampla, não apenas para monitoramento e controle de variáveis específicas, mas também para estimar outras variáveis e indicadores-chave de desempenho (KPIs), avaliar a saúde operacional do processo produtivo e promover sua otimização.
+
+De forma geral, o projeto busca analisar o potencial dos sistemas de transformação digital para contribuir com a sustentabilidade dos processos produtivos em microcervejarias. Espera-se que tais sistemas promovam a otimização dos processos, reduzindo o tempo de cada etapa, o consumo de energia e os custos com manutenção, além de evitar perdas de produção e retrabalhos. Também se espera que contribuam para a melhoria da qualidade do produto final, um dos principais desafios enfrentados por esse tipo de empresa.
+
 \section{Fundamentação teórica}
-Nesta seção abordaremos a fundamentação teórica do trabalho, tratando de conceitos de: transformação digital, computação em nuvem, edge computing e outros.
+Nesta seção é apresentada a fundamentação teórica que sustenta o desenvolvimento do presente trabalho. São discutidos os principais conceitos relacionados à transformação digital e à Indústria~4.0, bem como as arquiteturas e tecnologias computacionais que viabilizam esses processos, com destaque para a computação em nuvem, a computação em névoa e a computação de borda. %O objetivo desta seção é fornecer o embasamento conceitual necessário para a compreensão das escolhas metodológicas e da abordagem adotada ao longo do projeto.
 
 \subsection{Transformação digital, Indústria 4.0 e arquiteturas digitais}
 
@@ -172,6 +182,51 @@ Quando integradas de forma coerente, essas três camadas permitem distribuir res
 Essa arquitetura híbrida reduz barreiras tecnológicas historicamente associadas à digitalização industrial, permitindo que empresas de menor porte adotem práticas alinhadas à Indústria~4.0 sem a necessidade de infraestruturas complexas ou investimentos elevados. 
 %Assim, a combinação coordenada de computação em nuvem, névoa e borda constitui um elemento central para viabilizar a transformação digital em contextos industriais distribuídos, flexíveis e orientados a dados, reforçando o caráter democrático e escalável desse paradigma tecnológico.
 
+\section{Objetivos}
+Considerando o baixo nível de digitalização observado em microcervejarias, bem como
+a subutilização dos dados gerados nos processos industriais, especialmente em pequenas e
+médias empresas, os objetivos deste projeto de pesquisa são:
+\begin{itemize}
+    \item verificar e analisar, junto às microcervejarias brasileiras e às indicadas pela VLB na Alemanha, a infraestrutura e os equipamentos atualmente disponíveis que sejam capazes de fornecer dados do processo produtivo;
 
+    \item levantar as necessidades relacionadas às variáveis e aos indicadores-chave de desempenho (KPIs) mais relevantes para o monitoramento e controle do processo industrial;
 
+    \item estimar os valores que as microcervejarias estão dispostas a investir em tecnologias digitais, em comparação com as soluções atualmente disponíveis no mercado.
+\end{itemize}
+
+Realizada essas etapas, o projeto visa investigar arquiteturas de transformação digital aplicáveis ao processo industrial dessas empresas, de forma a atender às suas necessidades específicas com soluções que sejam custo-efetivas.
+
+\section{Descrição de composição e funcionamento do CPA/CPE}
+
+O presente projeto de iniciação científica está sendo desenvolvido no campus Sertãozinho do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP), instituição pública de ensino, pesquisa e extensão com atuação voltada para formação técnica e científica. A localização do campus em Sertãozinho-SP confere uma posição vantajosa para o desenvolvimento de pesquisas aplicadas ao setor cervejeiro, uma vez que o município integra a região conhecida como Polo Cervejeiro de Ribeirão Preto, caracterizada pela concentração de microcervejarias, cervejarias artesanais e empresas associadas à cadeia produtiva da cerveja.
+
+Essa proximidade geográfica com o setor produtivo cria condições favoráveis para a realização de estudos , análises comparativas e projetos de inovação tecnológica, permitindo a interação entre a academia e as empresas do setor. No contexto deste projeto, tal característica é particularmente relevante, pois possibilita a investigação de processos produtivos reais e a avaliação de estratégias de transformação digital em ambientes industriais de pequena e média escala.
+
+O campus Sertãozinho do IFSP dispõe de infraestrutura laboratorial especializada voltada ao setor cervejeiro, destacando-se o Laboratório de Produção Cervejeira, o Laboratório de Microbiologia e o Centro Multidisciplinar de Tecnologia Cervejeira. Esses ambientes contam com equipamentos e recursos adequados para a produção de cervejas em escala laboratorial e experimental, bem como para a realização de análises físico-químicas e microbiológicas de cervejas e de suas matérias-primas.
+
+\subsection{Estrutura de Gestão}
+
+A condução do projeto ocorre de forma integrada à estrutura acadêmica e de pesquisa do campus Sertãozinho do IFSP. A equipe local é composta por dois professores pesquisadores, responsáveis pela orientação científica e pela supervisão das atividades desenvolvidas, além de dois estudantes de iniciação científica, que atuam na execução das etapas do projeto, incluindo levantamento de dados, análises comparativas e desenvolvimento das atividades propostas.
+
+A estrutura de gestão conta com reuniões periódicas para acompanhamento das atividades, discussão dos resultados parciais e definição dos próximos passos, dinâmica que favorece a formação científica dos estudantes envolvidos e garante o alinhamento do projeto com os objetivos institucionais de pesquisa aplicada e inovação tecnológica do IFSP.
+
+Adicionalmente, o projeto conta com o apoio de um pesquisador alemão, que atua como colaborador externo, contribuindo com sua experiência e auxiliando na troca de conhecimentos relacionados a práticas industriais, pesquisa aplicada e transformação digital no setor cervejeiro, além de realizar uma ponte para diferentes instituições alemãs.
+
+\subsection{Parcerias}
+
+O desenvolvimento do projeto é sustentado por parcerias que fortalecem sua relevância científica e tecnológica. Essas parcerias incluem tanto instituições de pesquisa internacionais quanto a interação potencial com empresas do setor cervejeiro local, criando um ambiente propício para a troca de conhecimentos e a validação das análises realizadas.
+
+\subsubsection{Órgãos Públicos}
+
+Como instituição pública federal, o IFSP desempenha papel importante no fomento à pesquisa, à inovação e à extensão tecnológica. A execução deste projeto está alinhada à missão institucional do IFSP de promover o desenvolvimento científico e tecnológico com impacto social e econômico, especialmente em regiões com vocação industrial específica, como o Polo Cervejeiro de Ribeirão Preto.
+
+Embora o projeto não esteja diretamente vinculado a convênios específicos com órgãos públicos externos no momento, sua inserção em uma instituição pública de ensino e pesquisa garante suporte institucional, infraestrutura adequada e ambiente regulatório favorável à realização das atividades propostas.
+
+\subsubsection{Empresas}
+
+O projeto está inserido em um contexto regional caracterizado pela presença de microcervejarias e cervejarias artesanais, que constituem o principal objeto de análise do estudo. A proximidade geográfica com essas empresas possibilita sua participação como unidades de estudo, permitindo a realização de análises comparativas sobre processos produtivos, organização industrial e níveis de adoção de tecnologias digitais.
+
+Além disso, o projeto conta com a parceria de duas instituições alemãs de reconhecida relevância no setor cervejeiro e em tecnologias de produção. A \textit{Versuchs- und Lehranstalt für Brauerei} (VLB) é uma instituição de pesquisa voltada ao setor cervejeiro, com atuação destacada no desenvolvimento de pesquisas, na oferta de treinamentos e no suporte técnico a cervejarias. Sua participação no projeto contribui com conhecimento técnico especializado e uma visão internacional sobre práticas e inovações no setor.
+
+O projeto também conta com a parceria do \textit{Fraunhofer Institut für Produktionsanlagen und Konstruktionstechnik} (\textit{Fraunhofer} IPK), instituto de pesquisa alemão especializado em tecnologias avançadas de produção e engenharia. A colaboração com o \textit{Fraunhofer} IPK amplia o escopo tecnológico do projeto, especialmente no que se refere a processos de digitalização industrial, sistemas de produção e estratégias de inovação aplicadas à indústria.
 

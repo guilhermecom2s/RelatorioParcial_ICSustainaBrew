@@ -19,6 +19,190 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
+    \entry{garavaglia2018craft}{book}{}
+      \name{author}{2}{}{%
+        {{hash=026d68fdcbf48a878f4c60dff70d4da9}{%
+           family={Garavaglia},
+           familyi={G\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7b79418c0657c63d1f401d19f80e07de}{%
+           family={Swinnen},
+           familyi={S\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \strng{fullhash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \strng{bibnamehash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \strng{authorbibnamehash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \strng{authornamehash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \strng{authorfullhash}{c52242b6afcd1d6e8f9654222dc1a846}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Economic Perspectives on Craft Beer: A Revolution in the Global Beer Industry}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/978-3-319-58235-1
+      \endverb
+    \endentry
+    \entry{elzinga2015craft}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9759b70eabef03ef71da4849c950bfb7}{%
+           family={Elzinga},
+           familyi={E\bibinitperiod},
+           given={Kenneth\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c910cac0d02df26d4eb95aadd3076190}{%
+           family={Tremblay},
+           familyi={T\bibinitperiod},
+           given={Carol\bibnamedelima Horton},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=de8a99ebaadebb5860f912c9b6d3baa3}{%
+           family={Tremblay},
+           familyi={T\bibinitperiod},
+           given={Victor\bibnamedelima J.},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{da197e185942e7b5b3b4d8cda69179d9}
+      \strng{fullhash}{da197e185942e7b5b3b4d8cda69179d9}
+      \strng{bibnamehash}{da197e185942e7b5b3b4d8cda69179d9}
+      \strng{authorbibnamehash}{da197e185942e7b5b3b4d8cda69179d9}
+      \strng{authornamehash}{da197e185942e7b5b3b4d8cda69179d9}
+      \strng{authorfullhash}{da197e185942e7b5b3b4d8cda69179d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Wine Economics}
+      \field{title}{Craft beer in the United States: History, numbers, and geography}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{242\bibrangedash 274}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1017/jwe.2015.22
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/jwe.2015.22
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/jwe.2015.22
+      \endverb
+    \endentry
+    \entry{dias2021cloud}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=02d6a1ccd64eb9f0d538dc66869c8893}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{fullhash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{bibnamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authorbibnamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authornamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authorfullhash}{a9c23201a5ba6abf8728732a63236be6}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-3615}
+      \field{journaltitle}{Computers in Industry}
+      \field{title}{A cloud-based condition monitoring system for fault detection in rotating machines using PROFINET process data}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{103394}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compind.2021.103394
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.compind.2021.103394
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.compind.2021.103394
+      \endverb
+    \endentry
+    \entry{teng2022sme}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f5d1d262e0eac524fbc4d07f9eba5080}{%
+           family={Teng},
+           familyi={T\bibinitperiod},
+           given={Xiaodan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bcae0d7fdebf22efe7d2fe19778c90df}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zongjian},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1f0ae4f91371d2b0592da5b70570897f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \strng{fullhash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \strng{bibnamehash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \strng{authorbibnamehash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \strng{authornamehash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \strng{authorfullhash}{c04cb9a432e792f855cbc7c5e0cce4ad}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{10}
+      \field{title}{Research on the Relationship between Digital Transformation and Performance of SMEs}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{6012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su14106012
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/su14106012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/su14106012
+      \endverb
+    \endentry
+    \entry{dias2023microbrewery}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=02d6a1ccd64eb9f0d538dc66869c8893}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{fullhash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{bibnamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authorbibnamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authornamehash}{a9c23201a5ba6abf8728732a63236be6}
+      \strng{authorfullhash}{a9c23201a5ba6abf8728732a63236be6}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{15th International Conference on Industry Applications (INDUSCON)}
+      \field{title}{Proposal for digital transformation in production processes of microbreweries: a Brazilian market approach}
+      \field{year}{2023}
+    \endentry
     \entry{vial2021understanding}{article}{}
       \name{author}{1}{}{%
         {{hash=60a6941037f282e2810f835ee7af79df}{%
@@ -36,8 +220,8 @@
       \strng{authorbibnamehash}{60a6941037f282e2810f835ee7af79df}
       \strng{authornamehash}{60a6941037f282e2810f835ee7af79df}
       \strng{authorfullhash}{60a6941037f282e2810f835ee7af79df}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Managing digital transformation}
@@ -63,721 +247,98 @@
       \strng{authorbibnamehash}{b963f11ee19f34f2782fe4268d3c630e}
       \strng{authornamehash}{b963f11ee19f34f2782fe4268d3c630e}
       \strng{authorfullhash}{b963f11ee19f34f2782fe4268d3c630e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of cleaner production}
-      \field{title}{Industry 4.0, digitization, and opportunities for sustainability}
-      \field{volume}{252}
-      \field{year}{2020}
-      \field{pages}{119869}
-      \range{pages}{1}
-    \endentry
-    \entry{schallmo2017digital}{article}{}
-      \name{author}{3}{}{%
-        {{hash=37b2b434c7b88e004f92fef3433f9163}{%
-           family={Schallmo},
-           familyi={S\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4aa05348383ec977a713c3b6c411cd8e}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Christopher\bibnamedelima A},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=b5878ecf021bc6bd1798b41c694073e0}{%
-           family={Boardman},
-           familyi={B\bibinitperiod},
-           given={Luke},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {World Scientific}%
-      }
-      \strng{namehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{fullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{bibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authorbibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authornamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authorfullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International journal of innovation management}
-      \field{number}{08}
-      \field{title}{Digital transformation of business models—best practice, enablers, and roadmap}
-      \field{volume}{21}
-      \field{year}{2017}
-      \field{pages}{1740014}
-      \range{pages}{1}
-    \endentry
-    \entry{sestino2020internet}{article}{}
-      \name{author}{4}{}{%
-        {{hash=1163a90880a82d3526b6c484701f5535}{%
-           family={Sestino},
-           familyi={S\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1e08673f577241d4c5f693b998dee00c}{%
-           family={Prete},
-           familyi={P\bibinitperiod},
-           given={Maria\bibnamedelima Irene},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=c8aefc92be7ddf9ab04f76b283988ef8}{%
-           family={Piper},
-           familyi={P\bibinitperiod},
-           given={Luigi},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1bb032b34e89cc6d511d6062cfc5bd56}{%
-           family={Guido},
-           familyi={G\bibinitperiod},
-           given={Gianluigi},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{fullhash}{d8550008adf8e25bd9f818d25d70db09}
-      \strng{bibnamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authorbibnamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authornamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authorfullhash}{d8550008adf8e25bd9f818d25d70db09}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Technovation}
-      \field{title}{Internet of Things and Big Data as enablers for business digitalization strategies}
-      \field{volume}{98}
-      \field{year}{2020}
-      \field{pages}{102173}
-      \range{pages}{1}
-    \endentry
-    \entry{armbrust2010view}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=8eafad8289b06f72c2e8b7caf80a413a}{%
-           family={Armbrust},
-           familyi={A\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3c5b94cecebf3f40a6ad1bfde24c6dd5}{%
-           family={Fox},
-           familyi={F\bibinitperiod},
-           given={Armando},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0687da4465846445b36b7800c1bb8038}{%
-           family={Griffith},
-           familyi={G\bibinitperiod},
-           given={Rean},
-           giveni={R\bibinitperiod}}}%
-        {{hash=aeb54aa0c3d97e1b5901682fd058a86e}{%
-           family={Joseph},
-           familyi={J\bibinitperiod},
-           given={Anthony\bibnamedelima D},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=97c841afbd6b1980e626582e11cd5c08}{%
-           family={Katz},
-           familyi={K\bibinitperiod},
-           given={Randy},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a146737a08c92a0e901d58d45cdca770}{%
-           family={Konwinski},
-           familyi={K\bibinitperiod},
-           given={Andy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=be4e9543923533735a6b6ab0d3071b46}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Gunho},
-           giveni={G\bibinitperiod}}}%
-        {{hash=64f58317379ddd1a24e0e6cba85ae78c}{%
-           family={Patterson},
-           familyi={P\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4fb6cc742d611dd7706e52380e50cd4d}{%
-           family={Rabkin},
-           familyi={R\bibinitperiod},
-           given={Ariel},
-           giveni={A\bibinitperiod}}}%
-        {{hash=51d9ef26181e2e8a9dc546b401e0bb26}{%
-           family={Stoica},
-           familyi={S\bibinitperiod},
-           given={Ion},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM New York, NY, USA}%
-      }
-      \strng{namehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
-      \strng{fullhash}{89cf2e3ef35b130f136c71fa52bcec88}
-      \strng{bibnamehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
-      \strng{authorbibnamehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
-      \strng{authornamehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
-      \strng{authorfullhash}{89cf2e3ef35b130f136c71fa52bcec88}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Communications of the ACM}
-      \field{number}{4}
-      \field{title}{A view of cloud computing}
-      \field{volume}{53}
-      \field{year}{2010}
-      \field{pages}{50\bibrangedash 58}
-      \range{pages}{9}
-    \endentry
-    \entry{cloud2011nist}{article}{}
-      \name{author}{1}{}{%
-        {{hash=2f3d633731c60a9278244599219191e0}{%
-           family={Cloud},
-           familyi={C\bibinitperiod},
-           given={Hybrid},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{2f3d633731c60a9278244599219191e0}
-      \strng{fullhash}{2f3d633731c60a9278244599219191e0}
-      \strng{bibnamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authorbibnamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authornamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authorfullhash}{2f3d633731c60a9278244599219191e0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{National institute of science and technology, special publication}
-      \field{number}{2011}
-      \field{title}{The nist definition of cloud computing}
-      \field{volume}{800}
-      \field{year}{2011}
-      \field{pages}{145}
-      \range{pages}{1}
-    \endentry
-    \entry{marston2011cloud}{article}{}
-      \name{author}{5}{}{%
-        {{hash=81b35639719574ff3ee004e59fb857b2}{%
-           family={Marston},
-           familyi={M\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1016f45114ced473595a89e1864b0333}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Zhi},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=3546cff8213bc86abcf6943f243fb4fe}{%
-           family={Bandyopadhyay},
-           familyi={B\bibinitperiod},
-           given={Subhajyoti},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5a98c4d5908fc9a410e7878ba455c73b}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Juheng},
-           giveni={J\bibinitperiod}}}%
-        {{hash=339e18a101d92687dcea7eb090f8d30b}{%
-           family={Ghalsasi},
-           familyi={G\bibinitperiod},
-           given={Anand},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{fullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
-      \strng{bibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authorbibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authornamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authorfullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Decision support systems}
-      \field{number}{1}
-      \field{title}{Cloud computing—The business perspective}
-      \field{volume}{51}
-      \field{year}{2011}
-      \field{pages}{176\bibrangedash 189}
-      \range{pages}{14}
-    \endentry
-    \entry{bonomi2012fog}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=8819a271183f0eabaf267fc5a0147a80}{%
-           family={Bonomi},
-           familyi={B\bibinitperiod},
-           given={Flavio},
-           giveni={F\bibinitperiod}}}%
-        {{hash=f28ee87794044eb2050805f541e58d2e}{%
-           family={Milito},
-           familyi={M\bibinitperiod},
-           given={Rodolfo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8c69ee24cd8724f021d157276f708490}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Jiang},
-           giveni={J\bibinitperiod}}}%
-        {{hash=670224eb6968fc59e29d0fd7faca8a54}{%
-           family={Addepalli},
-           familyi={A\bibinitperiod},
-           given={Sateesh},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{fullhash}{99c098a1719b904a132e1149aacd2ba9}
-      \strng{bibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authorbibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authornamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authorfullhash}{99c098a1719b904a132e1149aacd2ba9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the first edition of the MCC workshop on Mobile cloud computing}
-      \field{title}{Fog computing and its role in the internet of things}
-      \field{year}{2012}
-      \field{pages}{13\bibrangedash 16}
-      \range{pages}{4}
-    \endentry
-    \entry{mouradian2017comprehensive}{article}{}
-      \name{author}{6}{}{%
-        {{hash=917aa59ff899e57899e18622fd57f899}{%
-           family={Mouradian},
-           familyi={M\bibinitperiod},
-           given={Carla},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1de43d48bb0240a6989d0a3ee94a25b5}{%
-           family={Naboulsi},
-           familyi={N\bibinitperiod},
-           given={Diala},
-           giveni={D\bibinitperiod}}}%
-        {{hash=257df1138d688bbd10c4aaf8b713b200}{%
-           family={Yangui},
-           familyi={Y\bibinitperiod},
-           given={Sami},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0afa847e9143262c99f97dd0ce935387}{%
-           family={Glitho},
-           familyi={G\bibinitperiod},
-           given={Roch\bibnamedelima H},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3078743c848b26fa09d681b81029f83f}{%
-           family={Morrow},
-           familyi={M\bibinitperiod},
-           given={Monique\bibnamedelima J},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=ee1642b84c73f7b27514256d19dd047e}{%
-           family={Polakos},
-           familyi={P\bibinitperiod},
-           given={Paul\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{fullhash}{a2a7988f2b16409abe006e023830e306}
-      \strng{bibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authorbibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authornamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authorfullhash}{a2a7988f2b16409abe006e023830e306}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE communications surveys \& tutorials}
-      \field{number}{1}
-      \field{title}{A comprehensive survey on fog computing: State-of-the-art and research challenges}
-      \field{volume}{20}
-      \field{year}{2017}
-      \field{pages}{416\bibrangedash 464}
-      \range{pages}{49}
-    \endentry
-    \entry{chiang2016fog}{article}{}
-      \name{author}{2}{}{%
-        {{hash=66b1d926f2b165f5ee0d97ce73c91589}{%
-           family={Chiang},
-           familyi={C\bibinitperiod},
-           given={Mung},
-           giveni={M\bibinitperiod}}}%
-        {{hash=228dd687961f3612985beeddec81f72a}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{fullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{bibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authorbibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authornamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authorfullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Internet of things journal}
-      \field{number}{6}
-      \field{title}{Fog and IoT: An overview of research opportunities}
-      \field{volume}{3}
-      \field{year}{2016}
-      \field{pages}{854\bibrangedash 864}
-      \range{pages}{11}
-    \endentry
-    \entry{shi2016edge}{article}{}
-      \name{author}{5}{}{%
-        {{hash=f41bbc46c4cca943fa2a0c3bf70c8a04}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Weisong},
-           giveni={W\bibinitperiod}}}%
-        {{hash=9c40aa498e849f7f722883a4ae1fb336}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fb6b65d4ecc7f7a867429776d35c7be7}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Quan},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=3753f139bbd88a53924ae0bdf3bafb76}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Youhuizi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=e8e9d96c392da7b022a5897d8c64ca3c}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Lanyu},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{fullhash}{9eda1f9615db9420697f36712b056545}
-      \strng{bibnamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authorbibnamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authornamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authorfullhash}{9eda1f9615db9420697f36712b056545}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE internet of things journal}
-      \field{number}{5}
-      \field{title}{Edge computing: Vision and challenges}
-      \field{volume}{3}
-      \field{year}{2016}
-      \field{pages}{637\bibrangedash 646}
-      \range{pages}{10}
-    \endentry
-    \entry{satyanarayanan2015edge}{article}{}
-      \name{author}{8}{}{%
-        {{hash=dad1fb554e5e561ff7cc2cab41c4bd71}{%
-           family={Satyanarayanan},
-           familyi={S\bibinitperiod},
-           given={Mahadev},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b205681adac9f09fac495059f6ece5f2}{%
-           family={Simoens},
-           familyi={S\bibinitperiod},
-           given={Pieter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=12c29a6c8f31ed3fdbac484e161786ef}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=f50104dc04bfb7759d8a0fe16e962ccc}{%
-           family={Pillai},
-           familyi={P\bibinitperiod},
-           given={Padmanabhan},
-           giveni={P\bibinitperiod}}}%
-        {{hash=48c731464964d6c671b8384c3e00652c}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhuo},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=cc0810dffd5abe003714da1f2c620edd}{%
-           family={Ha},
-           familyi={H\bibinitperiod},
-           given={Kiryong},
-           giveni={K\bibinitperiod}}}%
-        {{hash=cb15c8942db4a1ee1a305da3daec6ff5}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Wenlu},
-           giveni={W\bibinitperiod}}}%
-        {{hash=783779089b4b78ed86b990f3397d0abb}{%
-           family={Amos},
-           familyi={A\bibinitperiod},
-           given={Brandon},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{5f62a0485dec56930b78198287c3b54e}
-      \strng{fullhash}{50d7b5d9bdd21b8543f3346ed226113c}
-      \strng{bibnamehash}{5f62a0485dec56930b78198287c3b54e}
-      \strng{authorbibnamehash}{5f62a0485dec56930b78198287c3b54e}
-      \strng{authornamehash}{5f62a0485dec56930b78198287c3b54e}
-      \strng{authorfullhash}{50d7b5d9bdd21b8543f3346ed226113c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Pervasive Computing}
-      \field{number}{2}
-      \field{title}{Edge analytics in the internet of things}
-      \field{volume}{14}
-      \field{year}{2015}
-      \field{pages}{24\bibrangedash 31}
-      \range{pages}{8}
-    \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{2}
-  \datalist[entry]{none/global//global/global}
-    \entry{fapesp}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a7ec39f5200ce25e8242ba8ff8349f50}{%
-           family={{Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \strng{fullhash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \strng{bibnamehash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \strng{authorbibnamehash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \strng{authornamehash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \strng{authorfullhash}{a7ec39f5200ce25e8242ba8ff8349f50}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.fapesp.br/}}
-      \field{note}{acessado em 12 de setembro de 2025}
-      \field{title}{FAPESP}
-      \field{year}{2025}
-      \true{nocite}
-      \keyw{ref}
-    \endentry
-    \entry{cemeai}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=2c126bb30d21542bc99ebf1daa0e1a8a}{%
-           family={{CeMEAI — Center for Mathematical Sciences Applied to Industry}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \strng{fullhash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \strng{bibnamehash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \strng{authorbibnamehash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \strng{authornamehash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \strng{authorfullhash}{2c126bb30d21542bc99ebf1daa0e1a8a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://cemeai.icmc.usp.br/}}
-      \field{note}{acessado em 12 de setembro de 2025}
-      \field{title}{CeMEAI (ICMC-USP)}
-      \field{year}{2025}
-      \true{nocite}
-      \keyw{ref}
-    \endentry
-    \entry{ghobakhloo2020industry}{article}{}
-      \name{author}{1}{}{%
-        {{hash=b963f11ee19f34f2782fe4268d3c630e}{%
-           family={Ghobakhloo},
-           familyi={G\bibinitperiod},
-           given={Morteza},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{b963f11ee19f34f2782fe4268d3c630e}
-      \strng{fullhash}{b963f11ee19f34f2782fe4268d3c630e}
-      \strng{bibnamehash}{b963f11ee19f34f2782fe4268d3c630e}
-      \strng{authorbibnamehash}{b963f11ee19f34f2782fe4268d3c630e}
-      \strng{authornamehash}{b963f11ee19f34f2782fe4268d3c630e}
-      \strng{authorfullhash}{b963f11ee19f34f2782fe4268d3c630e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of cleaner production}
-      \field{title}{Industry 4.0, digitization, and opportunities for sustainability}
-      \field{volume}{252}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{119869}
-      \range{pages}{1}
-    \endentry
-    \entry{sestino2020internet}{article}{}
-      \name{author}{4}{}{%
-        {{hash=1163a90880a82d3526b6c484701f5535}{%
-           family={Sestino},
-           familyi={S\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1e08673f577241d4c5f693b998dee00c}{%
-           family={Prete},
-           familyi={P\bibinitperiod},
-           given={Maria\bibnamedelima Irene},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=c8aefc92be7ddf9ab04f76b283988ef8}{%
-           family={Piper},
-           familyi={P\bibinitperiod},
-           given={Luigi},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1bb032b34e89cc6d511d6062cfc5bd56}{%
-           family={Guido},
-           familyi={G\bibinitperiod},
-           given={Gianluigi},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{fullhash}{d8550008adf8e25bd9f818d25d70db09}
-      \strng{bibnamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authorbibnamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authornamehash}{962874f49aa56521e2d91e93148a9e1a}
-      \strng{authorfullhash}{d8550008adf8e25bd9f818d25d70db09}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Technovation}
-      \field{title}{Internet of Things and Big Data as enablers for business digitalization strategies}
-      \field{volume}{98}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{102173}
-      \range{pages}{1}
-    \endentry
-    \entry{schallmo2017digital}{article}{}
-      \name{author}{3}{}{%
-        {{hash=37b2b434c7b88e004f92fef3433f9163}{%
-           family={Schallmo},
-           familyi={S\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4aa05348383ec977a713c3b6c411cd8e}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Christopher\bibnamedelima A},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=b5878ecf021bc6bd1798b41c694073e0}{%
-           family={Boardman},
-           familyi={B\bibinitperiod},
-           given={Luke},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {World Scientific}%
-      }
-      \strng{namehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{fullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{bibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authorbibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authornamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \strng{authorfullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International journal of innovation management}
-      \field{number}{08}
-      \field{title}{Digital transformation of business models—best practice, enablers, and roadmap}
-      \field{volume}{21}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{1740014}
-      \range{pages}{1}
-    \endentry
-    \entry{vial2021understanding}{article}{}
-      \name{author}{1}{}{%
-        {{hash=60a6941037f282e2810f835ee7af79df}{%
-           family={Vial},
-           familyi={V\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{60a6941037f282e2810f835ee7af79df}
-      \strng{fullhash}{60a6941037f282e2810f835ee7af79df}
-      \strng{bibnamehash}{60a6941037f282e2810f835ee7af79df}
-      \strng{authorbibnamehash}{60a6941037f282e2810f835ee7af79df}
-      \strng{authornamehash}{60a6941037f282e2810f835ee7af79df}
-      \strng{authorfullhash}{60a6941037f282e2810f835ee7af79df}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Managing digital transformation}
-      \field{title}{Understanding digital transformation: A review and a research agenda}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{13\bibrangedash 66}
-      \range{pages}{54}
+      \field{journaltitle}{Journal of cleaner production}
+      \field{title}{Industry 4.0, digitization, and opportunities for sustainability}
+      \field{volume}{252}
+      \field{year}{2020}
+      \field{pages}{119869}
+      \range{pages}{1}
     \endentry
-    \entry{da2014internet}{article}{}
+    \entry{schallmo2017digital}{article}{}
       \name{author}{3}{}{%
-        {{hash=6a7c9f36d893462bcae01e78ef78d062}{%
-           family={Da\bibnamedelima Xu},
-           familyi={D\bibinitperiod\bibinitdelim X\bibinitperiod},
-           given={Li},
+        {{hash=37b2b434c7b88e004f92fef3433f9163}{%
+           family={Schallmo},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4aa05348383ec977a713c3b6c411cd8e}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b5878ecf021bc6bd1798b41c694073e0}{%
+           family={Boardman},
+           familyi={B\bibinitperiod},
+           given={Luke},
            giveni={L\bibinitperiod}}}%
-        {{hash=d52c6c08d7a7ac79e07aa638bf2a3d3e}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Wu},
-           giveni={W\bibinitperiod}}}%
-        {{hash=1a13d292f4175bf3e1ced3d3fdc321b4}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Shancang},
-           giveni={S\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {IEEE}%
+        {World Scientific}%
       }
-      \strng{namehash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \strng{fullhash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \strng{bibnamehash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \strng{authorbibnamehash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \strng{authornamehash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \strng{authorfullhash}{d4b489063c3844d6c371ffda2f5e35e4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \strng{fullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \strng{bibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \strng{authorbibnamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \strng{authornamehash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \strng{authorfullhash}{a1bba2f3890fb82c283dd46c1baef2c7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on industrial informatics}
-      \field{number}{4}
-      \field{title}{Internet of things in industries: A survey}
-      \field{volume}{10}
-      \field{year}{2014}
-      \true{nocite}
-      \field{pages}{2233\bibrangedash 2243}
-      \range{pages}{11}
+      \field{journaltitle}{International journal of innovation management}
+      \field{number}{08}
+      \field{title}{Digital transformation of business models—best practice, enablers, and roadmap}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{1740014}
+      \range{pages}{1}
+    \endentry
+    \entry{sestino2020internet}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1163a90880a82d3526b6c484701f5535}{%
+           family={Sestino},
+           familyi={S\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1e08673f577241d4c5f693b998dee00c}{%
+           family={Prete},
+           familyi={P\bibinitperiod},
+           given={Maria\bibnamedelima Irene},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=c8aefc92be7ddf9ab04f76b283988ef8}{%
+           family={Piper},
+           familyi={P\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1bb032b34e89cc6d511d6062cfc5bd56}{%
+           family={Guido},
+           familyi={G\bibinitperiod},
+           given={Gianluigi},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{962874f49aa56521e2d91e93148a9e1a}
+      \strng{fullhash}{d8550008adf8e25bd9f818d25d70db09}
+      \strng{bibnamehash}{962874f49aa56521e2d91e93148a9e1a}
+      \strng{authorbibnamehash}{962874f49aa56521e2d91e93148a9e1a}
+      \strng{authornamehash}{962874f49aa56521e2d91e93148a9e1a}
+      \strng{authorfullhash}{d8550008adf8e25bd9f818d25d70db09}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technovation}
+      \field{title}{Internet of Things and Big Data as enablers for business digitalization strategies}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{102173}
+      \range{pages}{1}
     \endentry
     \entry{armbrust2010view}{article}{}
       \true{moreauthor}
@@ -843,8 +404,8 @@
       \strng{authorbibnamehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
       \strng{authornamehash}{1bae7c2a3fe6ea29ffc01edd0ac606b5}
       \strng{authorfullhash}{89cf2e3ef35b130f136c71fa52bcec88}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Communications of the ACM}
@@ -852,9 +413,259 @@
       \field{title}{A view of cloud computing}
       \field{volume}{53}
       \field{year}{2010}
-      \true{nocite}
       \field{pages}{50\bibrangedash 58}
       \range{pages}{9}
+    \endentry
+    \entry{cloud2011nist}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f3d633731c60a9278244599219191e0}{%
+           family={Cloud},
+           familyi={C\bibinitperiod},
+           given={Hybrid},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f3d633731c60a9278244599219191e0}
+      \strng{fullhash}{2f3d633731c60a9278244599219191e0}
+      \strng{bibnamehash}{2f3d633731c60a9278244599219191e0}
+      \strng{authorbibnamehash}{2f3d633731c60a9278244599219191e0}
+      \strng{authornamehash}{2f3d633731c60a9278244599219191e0}
+      \strng{authorfullhash}{2f3d633731c60a9278244599219191e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National institute of science and technology, special publication}
+      \field{number}{2011}
+      \field{title}{The nist definition of cloud computing}
+      \field{volume}{800}
+      \field{year}{2011}
+      \field{pages}{145}
+      \range{pages}{1}
+    \endentry
+    \entry{marston2011cloud}{article}{}
+      \name{author}{5}{}{%
+        {{hash=81b35639719574ff3ee004e59fb857b2}{%
+           family={Marston},
+           familyi={M\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1016f45114ced473595a89e1864b0333}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3546cff8213bc86abcf6943f243fb4fe}{%
+           family={Bandyopadhyay},
+           familyi={B\bibinitperiod},
+           given={Subhajyoti},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5a98c4d5908fc9a410e7878ba455c73b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Juheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=339e18a101d92687dcea7eb090f8d30b}{%
+           family={Ghalsasi},
+           familyi={G\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{fullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
+      \strng{bibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authorbibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authornamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
+      \strng{authorfullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decision support systems}
+      \field{number}{1}
+      \field{title}{Cloud computing—The business perspective}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{176\bibrangedash 189}
+      \range{pages}{14}
+    \endentry
+    \entry{bonomi2012fog}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=8819a271183f0eabaf267fc5a0147a80}{%
+           family={Bonomi},
+           familyi={B\bibinitperiod},
+           given={Flavio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f28ee87794044eb2050805f541e58d2e}{%
+           family={Milito},
+           familyi={M\bibinitperiod},
+           given={Rodolfo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8c69ee24cd8724f021d157276f708490}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=670224eb6968fc59e29d0fd7faca8a54}{%
+           family={Addepalli},
+           familyi={A\bibinitperiod},
+           given={Sateesh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{95286e8bd1cb521cc485e849bd96b8f7}
+      \strng{fullhash}{99c098a1719b904a132e1149aacd2ba9}
+      \strng{bibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
+      \strng{authorbibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
+      \strng{authornamehash}{95286e8bd1cb521cc485e849bd96b8f7}
+      \strng{authorfullhash}{99c098a1719b904a132e1149aacd2ba9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the first edition of the MCC workshop on Mobile cloud computing}
+      \field{title}{Fog computing and its role in the internet of things}
+      \field{year}{2012}
+      \field{pages}{13\bibrangedash 16}
+      \range{pages}{4}
+    \endentry
+    \entry{mouradian2017comprehensive}{article}{}
+      \name{author}{6}{}{%
+        {{hash=917aa59ff899e57899e18622fd57f899}{%
+           family={Mouradian},
+           familyi={M\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1de43d48bb0240a6989d0a3ee94a25b5}{%
+           family={Naboulsi},
+           familyi={N\bibinitperiod},
+           given={Diala},
+           giveni={D\bibinitperiod}}}%
+        {{hash=257df1138d688bbd10c4aaf8b713b200}{%
+           family={Yangui},
+           familyi={Y\bibinitperiod},
+           given={Sami},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0afa847e9143262c99f97dd0ce935387}{%
+           family={Glitho},
+           familyi={G\bibinitperiod},
+           given={Roch\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3078743c848b26fa09d681b81029f83f}{%
+           family={Morrow},
+           familyi={M\bibinitperiod},
+           given={Monique\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ee1642b84c73f7b27514256d19dd047e}{%
+           family={Polakos},
+           familyi={P\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
+      \strng{fullhash}{a2a7988f2b16409abe006e023830e306}
+      \strng{bibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
+      \strng{authorbibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
+      \strng{authornamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
+      \strng{authorfullhash}{a2a7988f2b16409abe006e023830e306}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE communications surveys \& tutorials}
+      \field{number}{1}
+      \field{title}{A comprehensive survey on fog computing: State-of-the-art and research challenges}
+      \field{volume}{20}
+      \field{year}{2017}
+      \field{pages}{416\bibrangedash 464}
+      \range{pages}{49}
+    \endentry
+    \entry{chiang2016fog}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66b1d926f2b165f5ee0d97ce73c91589}{%
+           family={Chiang},
+           familyi={C\bibinitperiod},
+           given={Mung},
+           giveni={M\bibinitperiod}}}%
+        {{hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \strng{fullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \strng{bibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \strng{authorbibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \strng{authornamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \strng{authorfullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of things journal}
+      \field{number}{6}
+      \field{title}{Fog and IoT: An overview of research opportunities}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{854\bibrangedash 864}
+      \range{pages}{11}
+    \endentry
+    \entry{shi2016edge}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f41bbc46c4cca943fa2a0c3bf70c8a04}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Weisong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9c40aa498e849f7f722883a4ae1fb336}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb6b65d4ecc7f7a867429776d35c7be7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Quan},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3753f139bbd88a53924ae0bdf3bafb76}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Youhuizi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8e9d96c392da7b022a5897d8c64ca3c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lanyu},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{fullhash}{9eda1f9615db9420697f36712b056545}
+      \strng{bibnamehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{authorbibnamehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{authornamehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{authorfullhash}{9eda1f9615db9420697f36712b056545}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE internet of things journal}
+      \field{number}{5}
+      \field{title}{Edge computing: Vision and challenges}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{637\bibrangedash 646}
+      \range{pages}{10}
     \endentry
     \entry{satyanarayanan2015edge}{article}{}
       \name{author}{8}{}{%
@@ -908,8 +719,8 @@
       \strng{authorbibnamehash}{5f62a0485dec56930b78198287c3b54e}
       \strng{authornamehash}{5f62a0485dec56930b78198287c3b54e}
       \strng{authorfullhash}{50d7b5d9bdd21b8543f3346ed226113c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Pervasive Computing}
@@ -917,654 +728,8 @@
       \field{title}{Edge analytics in the internet of things}
       \field{volume}{14}
       \field{year}{2015}
-      \true{nocite}
       \field{pages}{24\bibrangedash 31}
       \range{pages}{8}
-    \endentry
-    \entry{shi2016edge}{article}{}
-      \name{author}{5}{}{%
-        {{hash=f41bbc46c4cca943fa2a0c3bf70c8a04}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Weisong},
-           giveni={W\bibinitperiod}}}%
-        {{hash=9c40aa498e849f7f722883a4ae1fb336}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fb6b65d4ecc7f7a867429776d35c7be7}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Quan},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=3753f139bbd88a53924ae0bdf3bafb76}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Youhuizi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=e8e9d96c392da7b022a5897d8c64ca3c}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Lanyu},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{fullhash}{9eda1f9615db9420697f36712b056545}
-      \strng{bibnamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authorbibnamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authornamehash}{b13d56fe65b8052396f26390274b4978}
-      \strng{authorfullhash}{9eda1f9615db9420697f36712b056545}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE internet of things journal}
-      \field{number}{5}
-      \field{title}{Edge computing: Vision and challenges}
-      \field{volume}{3}
-      \field{year}{2016}
-      \true{nocite}
-      \field{pages}{637\bibrangedash 646}
-      \range{pages}{10}
-    \endentry
-    \entry{bonomi2012fog}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=8819a271183f0eabaf267fc5a0147a80}{%
-           family={Bonomi},
-           familyi={B\bibinitperiod},
-           given={Flavio},
-           giveni={F\bibinitperiod}}}%
-        {{hash=f28ee87794044eb2050805f541e58d2e}{%
-           family={Milito},
-           familyi={M\bibinitperiod},
-           given={Rodolfo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8c69ee24cd8724f021d157276f708490}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Jiang},
-           giveni={J\bibinitperiod}}}%
-        {{hash=670224eb6968fc59e29d0fd7faca8a54}{%
-           family={Addepalli},
-           familyi={A\bibinitperiod},
-           given={Sateesh},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{fullhash}{99c098a1719b904a132e1149aacd2ba9}
-      \strng{bibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authorbibnamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authornamehash}{95286e8bd1cb521cc485e849bd96b8f7}
-      \strng{authorfullhash}{99c098a1719b904a132e1149aacd2ba9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the first edition of the MCC workshop on Mobile cloud computing}
-      \field{title}{Fog computing and its role in the internet of things}
-      \field{year}{2012}
-      \true{nocite}
-      \field{pages}{13\bibrangedash 16}
-      \range{pages}{4}
-    \endentry
-    \entry{mouradian2017comprehensive}{article}{}
-      \name{author}{6}{}{%
-        {{hash=917aa59ff899e57899e18622fd57f899}{%
-           family={Mouradian},
-           familyi={M\bibinitperiod},
-           given={Carla},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1de43d48bb0240a6989d0a3ee94a25b5}{%
-           family={Naboulsi},
-           familyi={N\bibinitperiod},
-           given={Diala},
-           giveni={D\bibinitperiod}}}%
-        {{hash=257df1138d688bbd10c4aaf8b713b200}{%
-           family={Yangui},
-           familyi={Y\bibinitperiod},
-           given={Sami},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0afa847e9143262c99f97dd0ce935387}{%
-           family={Glitho},
-           familyi={G\bibinitperiod},
-           given={Roch\bibnamedelima H},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3078743c848b26fa09d681b81029f83f}{%
-           family={Morrow},
-           familyi={M\bibinitperiod},
-           given={Monique\bibnamedelima J},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=ee1642b84c73f7b27514256d19dd047e}{%
-           family={Polakos},
-           familyi={P\bibinitperiod},
-           given={Paul\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{fullhash}{a2a7988f2b16409abe006e023830e306}
-      \strng{bibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authorbibnamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authornamehash}{adbfbcf9cc3c0fa441a59f872b7d70ad}
-      \strng{authorfullhash}{a2a7988f2b16409abe006e023830e306}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE communications surveys \& tutorials}
-      \field{number}{1}
-      \field{title}{A comprehensive survey on fog computing: State-of-the-art and research challenges}
-      \field{volume}{20}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{416\bibrangedash 464}
-      \range{pages}{49}
-    \endentry
-    \entry{li2015internet}{article}{}
-      \name{author}{3}{}{%
-        {{hash=1a13d292f4175bf3e1ced3d3fdc321b4}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Shancang},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6b979a18ef0db390620fae18cb0c5c8b}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Li\bibnamedelima Da},
-           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=b06b6c099132669b04e5b32266399d4b}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Shanshan},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{b62831f02393de4e16fcb7be746b37ba}
-      \strng{fullhash}{b62831f02393de4e16fcb7be746b37ba}
-      \strng{bibnamehash}{b62831f02393de4e16fcb7be746b37ba}
-      \strng{authorbibnamehash}{b62831f02393de4e16fcb7be746b37ba}
-      \strng{authornamehash}{b62831f02393de4e16fcb7be746b37ba}
-      \strng{authorfullhash}{b62831f02393de4e16fcb7be746b37ba}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Information systems frontiers}
-      \field{number}{2}
-      \field{title}{The internet of things: a survey}
-      \field{volume}{17}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{243\bibrangedash 259}
-      \range{pages}{17}
-    \endentry
-    \entry{cloud2011nist}{article}{}
-      \name{author}{1}{}{%
-        {{hash=2f3d633731c60a9278244599219191e0}{%
-           family={Cloud},
-           familyi={C\bibinitperiod},
-           given={Hybrid},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{2f3d633731c60a9278244599219191e0}
-      \strng{fullhash}{2f3d633731c60a9278244599219191e0}
-      \strng{bibnamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authorbibnamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authornamehash}{2f3d633731c60a9278244599219191e0}
-      \strng{authorfullhash}{2f3d633731c60a9278244599219191e0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{National institute of science and technology, special publication}
-      \field{number}{2011}
-      \field{title}{The nist definition of cloud computing}
-      \field{volume}{800}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{145}
-      \range{pages}{1}
-    \endentry
-    \entry{marston2011cloud}{article}{}
-      \name{author}{5}{}{%
-        {{hash=81b35639719574ff3ee004e59fb857b2}{%
-           family={Marston},
-           familyi={M\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1016f45114ced473595a89e1864b0333}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Zhi},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=3546cff8213bc86abcf6943f243fb4fe}{%
-           family={Bandyopadhyay},
-           familyi={B\bibinitperiod},
-           given={Subhajyoti},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5a98c4d5908fc9a410e7878ba455c73b}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Juheng},
-           giveni={J\bibinitperiod}}}%
-        {{hash=339e18a101d92687dcea7eb090f8d30b}{%
-           family={Ghalsasi},
-           familyi={G\bibinitperiod},
-           given={Anand},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{fullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
-      \strng{bibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authorbibnamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authornamehash}{fec6a358a93f495afb5d5e416bd2f8c2}
-      \strng{authorfullhash}{e3584a0bbcb3c86aa344300cc280d2a2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Decision support systems}
-      \field{number}{1}
-      \field{title}{Cloud computing—The business perspective}
-      \field{volume}{51}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{176\bibrangedash 189}
-      \range{pages}{14}
-    \endentry
-    \entry{chiang2016fog}{article}{}
-      \name{author}{2}{}{%
-        {{hash=66b1d926f2b165f5ee0d97ce73c91589}{%
-           family={Chiang},
-           familyi={C\bibinitperiod},
-           given={Mung},
-           giveni={M\bibinitperiod}}}%
-        {{hash=228dd687961f3612985beeddec81f72a}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{fullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{bibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authorbibnamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authornamehash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \strng{authorfullhash}{2bf8e69a4f778b75d95ab60a71e34f02}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Internet of things journal}
-      \field{number}{6}
-      \field{title}{Fog and IoT: An overview of research opportunities}
-      \field{volume}{3}
-      \field{year}{2016}
-      \true{nocite}
-      \field{pages}{854\bibrangedash 864}
-      \range{pages}{11}
-    \endentry
-    \entry{almeida2021visao}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9d2942c89e0aaf3fdcdda3f1dd78ea7d}{%
-           family={Almeida},
-           familyi={A\bibinitperiod},
-           given={Rodrigo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=bc9cc2db1657ba8b2ac53d6293daa134}{%
-           family={Barros},
-           familyi={B\bibinitperiod},
-           given={Luana},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Sociedade Brasileira de Computação}%
-      }
-      \strng{namehash}{7bc427a98a54282d5e601d12e5e65dff}
-      \strng{fullhash}{7bc427a98a54282d5e601d12e5e65dff}
-      \strng{bibnamehash}{7bc427a98a54282d5e601d12e5e65dff}
-      \strng{authorbibnamehash}{7bc427a98a54282d5e601d12e5e65dff}
-      \strng{authornamehash}{7bc427a98a54282d5e601d12e5e65dff}
-      \strng{authorfullhash}{7bc427a98a54282d5e601d12e5e65dff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Revista Brasileira de Inteligência Artificial}
-      \field{number}{2}
-      \field{title}{Visão Computacional Aplicada à Agricultura de Precisão}
-      \field{volume}{9}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{45\bibrangedash 60}
-      \range{pages}{16}
-      \keyw{art,artn}
-    \endentry
-    \entry{souza2022mining}{article}{}
-      \name{author}{2}{}{%
-        {{hash=550eb6a114001e80763865877442be52}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Fernanda},
-           giveni={F\bibinitperiod}}}%
-        {{hash=8a920878dce17a5c82d79b400a93a75a}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Caio},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Editora UFBA}%
-      }
-      \strng{namehash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \strng{fullhash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \strng{bibnamehash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \strng{authorbibnamehash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \strng{authornamehash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \strng{authorfullhash}{70ba732d47361ffe3f0d5b4cf1067428}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Revista de Sistemas e Computação}
-      \field{number}{1}
-      \field{title}{Mineração de Dados Educacionais com Técnicas de Aprendizado de Máquina}
-      \field{volume}{32}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{77\bibrangedash 95}
-      \range{pages}{19}
-      \keyw{art,artn}
-    \endentry
-    \entry{gomes2019robotics}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9b990b1af7f0f2dec9d194a9f2705f1a}{%
-           family={Gomes},
-           familyi={G\bibinitperiod},
-           given={Tiago},
-           giveni={T\bibinitperiod}}}%
-        {{hash=aca14937e47b4f63f7816d4dc42eae38}{%
-           family={Almeida},
-           familyi={A\bibinitperiod},
-           given={Sofia},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \strng{fullhash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \strng{bibnamehash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \strng{authorbibnamehash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \strng{authornamehash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \strng{authorfullhash}{c3b6958ebba61b79100fe529b6a5ede5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Robotics and Autonomous Systems}
-      \field{title}{Human-Robot Interaction in Industrial Environments Using Machine Learning}
-      \field{volume}{120}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{103\bibrangedash 115}
-      \range{pages}{13}
-      \keyw{art,arti}
-    \endentry
-    \entry{pires2023generative}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9054329761ae42a80e8e626ac67a37b9}{%
-           family={Pires},
-           familyi={P\bibinitperiod},
-           given={Eduardo},
-           giveni={E\bibinitperiod}}}%
-        {{hash=1805829b45776a3f61d07462b96dccdd}{%
-           family={Nascimento},
-           familyi={N\bibinitperiod},
-           given={Clara},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \strng{fullhash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \strng{bibnamehash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \strng{authorbibnamehash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \strng{authornamehash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \strng{authorfullhash}{fbe74ec53697760bb9cdb4e15e85959a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Expert Systems with Applications}
-      \field{title}{Generative Adversarial Networks for Synthetic Data in Finance}
-      \field{volume}{215}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{119\bibrangedash 134}
-      \range{pages}{16}
-      \keyw{art,arti}
-    \endentry
-    \entry{costa2023iaeducacao}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=ebaa7d3464348ac32daa01758e0626d9}{%
-           family={Costa},
-           familyi={C\bibinitperiod},
-           given={Mariana},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6be29e97cc6a39cfb9a32a1bb0239226}{%
-           family={Freitas},
-           familyi={F\bibinitperiod},
-           given={João},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Porto Alegre, Brasil}%
-      }
-      \list{organization}{1}{%
-        {SBC}%
-      }
-      \strng{namehash}{f2b53d841ad224daa49aad4543bce3dc}
-      \strng{fullhash}{f2b53d841ad224daa49aad4543bce3dc}
-      \strng{bibnamehash}{f2b53d841ad224daa49aad4543bce3dc}
-      \strng{authorbibnamehash}{f2b53d841ad224daa49aad4543bce3dc}
-      \strng{authornamehash}{f2b53d841ad224daa49aad4543bce3dc}
-      \strng{authorfullhash}{f2b53d841ad224daa49aad4543bce3dc}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Anais do Congresso da Sociedade Brasileira de Computação}
-      \field{title}{Uso de Inteligência Artificial para Personalização do Ensino em Ambientes Virtuais de Aprendizagem}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{213\bibrangedash 224}
-      \range{pages}{12}
-      \keyw{proc,procn}
-    \endentry
-    \entry{fernandes2023nlp}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=47b751fbdc81c82e658c4dd933376dc8}{%
-           family={Fernandes},
-           familyi={F\bibinitperiod},
-           given={Rafael},
-           giveni={R\bibinitperiod}}}%
-        {{hash=477edc36df93f0381d085dc04cc36ea7}{%
-           family={Lima},
-           familyi={L\bibinitperiod},
-           given={Beatriz},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {ACL}%
-      }
-      \strng{namehash}{cc541de156764d722d231059700b4476}
-      \strng{fullhash}{cc541de156764d722d231059700b4476}
-      \strng{bibnamehash}{cc541de156764d722d231059700b4476}
-      \strng{authorbibnamehash}{cc541de156764d722d231059700b4476}
-      \strng{authornamehash}{cc541de156764d722d231059700b4476}
-      \strng{authorfullhash}{cc541de156764d722d231059700b4476}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing}
-      \field{title}{Transformers for Low-Resource Languages: A Case Study in Portuguese}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{5012\bibrangedash 5024}
-      \range{pages}{13}
-      \keyw{proc,proci}
-    \endentry
-    \entry{mendes2021xai}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=7a60a8a8105bf500f00fe60755e293ee}{%
-           family={Mendes},
-           familyi={M\bibinitperiod},
-           given={Lucas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=2c5a00b76761bd9a0dfb7b289b24791e}{%
-           family={Rocha},
-           familyi={R\bibinitperiod},
-           given={Daniela},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {AAAI}%
-      }
-      \strng{namehash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \strng{fullhash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \strng{bibnamehash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \strng{authorbibnamehash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \strng{authornamehash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \strng{authorfullhash}{88908dcd6dfd5e085d385ed3fad9a7d7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the AAAI Conference on Artificial Intelligence}
-      \field{number}{8}
-      \field{title}{Explainable AI for Healthcare: Challenges and Opportunities}
-      \field{volume}{35}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{6892\bibrangedash 6900}
-      \range{pages}{9}
-      \keyw{proc,proci}
-    \endentry
-    \entry{santos2020edge}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=9f79d1f263ab6ee9f1899b151fb727e8}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Bruno},
-           giveni={B\bibinitperiod}}}%
-        {{hash=7fe1edfc9cd62daffd99f99c89d596d5}{%
-           family={Carvalho},
-           familyi={C\bibinitperiod},
-           given={André},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \strng{fullhash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \strng{bibnamehash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \strng{authorbibnamehash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \strng{authornamehash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \strng{authorfullhash}{4d275039b5088e4c97b8c57f1ce227ec}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the IEEE International Conference on Edge Computing}
-      \field{title}{Edge AI: Deploying Deep Neural Networks on IoT Devices}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{88\bibrangedash 96}
-      \range{pages}{9}
-      \keyw{proc,proci}
-    \endentry
-    \entry{oliveira2020ia}{book}{}
-      \name{author}{2}{}{%
-        {{hash=2dad2e2864c129b34d11c53cd669dda1}{%
-           family={Oliveira},
-           familyi={O\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-        {{hash=909b8b942da069e4d840a6d3ec8070a3}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Helena},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Editora Ciência Moderna}%
-      }
-      \strng{namehash}{5e96c9f837e854e467792de93110baa6}
-      \strng{fullhash}{5e96c9f837e854e467792de93110baa6}
-      \strng{bibnamehash}{5e96c9f837e854e467792de93110baa6}
-      \strng{authorbibnamehash}{5e96c9f837e854e467792de93110baa6}
-      \strng{authornamehash}{5e96c9f837e854e467792de93110baa6}
-      \strng{authorfullhash}{5e96c9f837e854e467792de93110baa6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Inteligência Artificial: Fundamentos e Aplicações}
-      \field{year}{2020}
-      \true{nocite}
-      \keyw{livro}
-    \endentry
-    \entry{araujo2022ethics}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=228d02420717e55071c6cc8f4d760320}{%
-           family={Araujo},
-           familyi={A\bibinitperiod},
-           given={Felipe},
-           giveni={F\bibinitperiod}}}%
-        {{hash=b42a1aaf4d4fef8fb0e2402ac99ea9f6}{%
-           family={Martins},
-           familyi={M\bibinitperiod},
-           given={Carolina},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \strng{fullhash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \strng{bibnamehash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \strng{authorbibnamehash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \strng{authornamehash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \strng{authorfullhash}{45ff3c8f9db9c5c99ff648a7a30192e0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbook of Responsible AI}
-      \field{title}{Ethics of Artificial Intelligence in Autonomous Vehicles}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{145\bibrangedash 167}
-      \range{pages}{23}
-      \keyw{cap}
     \endentry
   \enddatalist
 \endrefsection

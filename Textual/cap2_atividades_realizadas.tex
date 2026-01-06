@@ -1,21 +1,55 @@
 \chapter{Atividades realizadas no período}
 
-\lipsum[2] \\
+% Seções sugeridas:
 
-Seções sugeridas:
+% \section{Projeto 1}
 
-\section{Projeto 1}
+% \subsection{Frente A}
 
-\subsection{Frente A}
+% \subsection{Frente B}
 
-\subsection{Frente B}
+% \subsection{Frente C}
 
-\subsection{Frente C}
+% \section{Projeto 2}
 
-\section{Projeto 2}
+% \section{Eventos}
 
-\section{Eventos}
+% \subsection{Participação em Eventos}
 
-\subsection{Participação em Eventos}
+% \subsection{Eventos Organizados pelo Projeto}
 
-\subsection{Eventos Organizados pelo Projeto}
+
+As atividades desenvolvidas ao longo do período de vigência deste relatório foram organizadas em etapas sequenciais e complementares, contemplando desde a fundamentação teórica até a implementação inicial de um piloto de transformação digital e a coleta de dados junto a microcervejarias. A seguir, descrevem-se as principais atividades realizadas.
+
+\section{Pesquisa bibliográfica sobre o processo cervejeiro}
+
+A primeira etapa do projeto consistiu na realização de uma pesquisa bibliográfica com o objetivo de aprofundar o entendimento sobre o processo produtivo cervejeiro, bem como identificar tecnologias empregadas ao longo das diferentes etapas de produção e indicadores de desempenho (\textit{Key Performance Indicators} -- KPIs) comumente utilizados no setor.
+
+A pesquisa bibliográfica foi conduzida majoritariamente por meio da base de dados SCOPUS, priorizando artigos científicos, revisões de literatura e estudos de caso relacionados à produção cervejeira, automação industrial, monitoramento de processos e transformação digital no contexto de pequenas e médias indústrias. %A partir dessa análise, foi possível identificar variáveis relevantes do processo produtivo, práticas recorrentes de monitoramento e lacunas relacionadas à adoção de tecnologias digitais no setor.
+
+\section{Desenvolvimento do questionário para caracterização das microcervejarias}
+
+A segunda etapa consistiu no desenvolvimento de um questionário estruturado, utilizando a plataforma Google Forms, com o objetivo de mapear o perfil das microcervejarias participantes do estudo. O questionário foi elaborado com base nos resultados da pesquisa bibliográfica, buscando levantar informações relacionadas às características produtivas das cervejarias, às variáveis monitoradas ao longo do processo, aos KPIs acompanhados e ao nível de adoção de tecnologias digitais.
+
+O instrumento desenvolvido tem caráter duplo: além de permitir a caracterização do perfil das microcervejarias, ele também possibilita a realização de uma análise comparativa entre empresas brasileiras e alemãs. Para isso, o questionário foi concebido de modo a ser aplicado tanto a microcervejarias da região do Polo Cervejeiro de Ribeirão Preto quanto a microcervejarias localizadas na Alemanha.
+
+\section{Submissão ao Comitê de Ética em Pesquisa}
+
+Após a conclusão do questionário, o projeto foi submetido ao Comitê de Ética em Pesquisa (CEP) do IFSP, procedimento necessário em função do envolvimento de pesquisa com pessoas. A submissão contemplou a descrição dos objetivos do estudo, dos métodos de coleta de dados e das medidas adotadas para garantir a confidencialidade e o anonimato das informações fornecidas pelos participantes.
+
+Durante o período de avaliação pelo comitê, não foram realizadas coletas de dados junto às microcervejarias, respeitando as diretrizes éticas estabelecidas.
+
+\section{Implementação do piloto de transformação digital}
+
+Paralelamente à etapa de avaliação ética, teve início a implementação de um piloto de transformação digital na cervejaria do laboratório do campus Sertãozinho do IFSP. Essa atividade teve como objetivo explorar, em ambiente controlado, a aplicação prática dos conceitos discutidos na fundamentação teórica, especialmente no que se refere à integração de tecnologias digitais ao processo produtivo cervejeiro.
+
+% TODO: Revisar para garantir que esses são de fato os conteineres criados
+O piloto foi desenvolvido com base em uma arquitetura modular e conteinerizada, utilizando a tecnologia Docker. Foram implementados diferentes contêineres com funções específicas: um contêiner dedicado à aquisição e armazenamento de dados do processo produtivo por meio do protocolo OPC-UA, e outro responsável pelo recebimento, tratamento e preparação desses dados para visualização. Um último contêiner recebias as informações processadas, e as disponibiliza em uma interface de monitoramento baseada no Grafana, permitindo que usuários, como membros da cervejaria, acompanhassem o processo produtivo de forma visual e centralizada.
+
+\section{Aplicação do questionário e tratamento inicial dos dados}
+
+Após a aprovação do projeto pelo Comitê de Ética em Pesquisa, o questionário foi distribuído a diversas microcervejarias da região de Ribeirão Preto. Adicionalmente, o formulário foi traduzido para o idioma inglês e, posteriormente, para o alemão, com o apoio da equipe de pesquisa parceira, possibilitando sua aplicação junto a microcervejarias alemãs.
+
+Com a obtenção de um número satisfatório de respostas no contexto brasileiro, foi iniciado o tratamento dos dados coletados, visando sua organização e preparação para análises exploratórias e comparativas futuras. Esse tratamento envolveu a padronização das respostas, a verificação de consistência e a estruturação das variáveis de interesse.
+
+Até o momento da elaboração deste relatório, o número de respostas provenientes das microcervejarias alemãs ainda não é suficiente para a realização de análises comparativas completas. Assim, o tratamento e a análise desses dados serão aprofundados à medida que novas respostas forem obtidas, constituindo uma das próximas etapas do projeto.
