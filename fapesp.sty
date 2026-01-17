@@ -145,12 +145,17 @@
 \newcommand{\modalidadeProjeto}[1]{\def\modProjeto{#1}}          % Define modalidade do projeto
 \newcommand{\agFomento}[2]{\def\agFom{#1} \def\siglaAgFom{#2}}   % Agência de fomento
 \newcommand{\coordenador}[1]{\def\nomeCoordenador{#1}}           % Define coordenador
+\newcommand{\beneficiario}[1]{\def\nomeBeneficiario{#1}}         
 \newcommand{\instCoordenador}[1]{\def\nomeInstCoordenador{#1}}   % Define vínculo institucional do coordenador
+\newcommand{\instBeneficiario}[1]{\def\nomeInstBeneficiario{#1}}   % Define vínculo institucional do coordenador
 \newcommand{\cidade}[1]{\def\nomeCidade{#1}}                     % Define cidade
 \newcommand{\universidade}[1]{\def\nomeUniversidade{#1}}         % Define universidade
 \newcommand{\instituicao}[1]{\def\nomeInstituicao{#1}}           % Define instituição
 \newcommand{\periodoVigencia}[1]{\def\periodVig{#1}}             % Define período de vigência
 \newcommand{\periodoRelatorio}[1]{\def\periodRelat{#1}}          % Define período do relatório
+
+
+\newcommand{\pdfscale}{0.9\textwidth}                           % Scale para o pdf
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -193,7 +198,8 @@
        \ifdefined\tipoRelat
             \tipoRelat
        \fi
-       do  
+       %do
+       de  
        \ifdefined\modProjeto
            \modProjeto,
        \fi
@@ -205,6 +211,8 @@
           \\ [0.5cm]
        \fi
         Coordenador: \nomeCoordenador, \nomeInstCoordenador
+
+        Beneficiário: \nomeBeneficiario, \nomeInstBeneficiario
        
         \vfill
        

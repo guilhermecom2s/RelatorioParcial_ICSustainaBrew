@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.11" bltxversion="3.21" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -38,6 +38,11 @@
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
     </bcf:option>
+    <bcf:option type="multivalued">
+      <bcf:key>extradatecontext</bcf:key>
+      <bcf:value order="1">labelname</bcf:value>
+      <bcf:value order="2">labeltitle</bcf:value>
+    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -46,9 +51,10 @@
       <bcf:key>labelnamespec</bcf:key>
       <bcf:value order="1">shortauthor</bcf:value>
       <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">shorteditor</bcf:value>
-      <bcf:value order="4">editor</bcf:value>
-      <bcf:value order="5">translator</bcf:value>
+      <bcf:value order="3">holder</bcf:value>
+      <bcf:value order="4">shorteditor</bcf:value>
+      <bcf:value order="5">editor</bcf:value>
+      <bcf:value order="6">translator</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeltitle</bcf:key>
@@ -66,7 +72,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -138,6 +144,10 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>pluralothers</bcf:key>
+      <bcf:value>0</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>singletitle</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
@@ -171,11 +181,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>minfull</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -272,6 +282,11 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
+    <bcf:option type="multivalued">
+      <bcf:key>extradatecontext</bcf:key>
+      <bcf:value order="1">labelname</bcf:value>
+      <bcf:value order="2">labeltitle</bcf:value>
+    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -280,9 +295,10 @@
       <bcf:key>labelnamespec</bcf:key>
       <bcf:value order="1">shortauthor</bcf:value>
       <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">shorteditor</bcf:value>
-      <bcf:value order="4">editor</bcf:value>
-      <bcf:value order="5">translator</bcf:value>
+      <bcf:value order="3">holder</bcf:value>
+      <bcf:value order="4">shorteditor</bcf:value>
+      <bcf:value order="5">editor</bcf:value>
+      <bcf:value order="6">translator</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeltitle</bcf:key>
@@ -300,7 +316,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -372,20 +388,20 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
       <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>skiplab</bcf:key>
+      <bcf:value>0</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>minfull</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -488,9 +504,11 @@
     <bcf:option datatype="xml">inheritance</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">uniquenametemplate</bcf:option>
+    <bcf:option datatype="xml">namehashtemplate</bcf:option>
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
+    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -498,6 +516,7 @@
     <bcf:option datatype="string">alphaothers</bcf:option>
     <bcf:option datatype="string">sortalphaothers</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
+    <bcf:option datatype="string">citepagerange</bcf:option>
     <bcf:option datatype="string">texencoding</bcf:option>
     <bcf:option datatype="string">bibencoding</bcf:option>
     <bcf:option datatype="string">sortingtemplatename</bcf:option>
@@ -599,6 +618,7 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
+    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -638,10 +658,14 @@
     <bcf:option datatype="boolean">extradate</bcf:option>
     <bcf:option datatype="boolean">extrayear</bcf:option>
     <bcf:option datatype="boolean">justify</bcf:option>
+    <bcf:option datatype="boolean">oldspacing</bcf:option>
     <bcf:option datatype="boolean">pretty</bcf:option>
     <bcf:option datatype="boolean">citecount</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">comp</bcf:option>
+    <bcf:option datatype="boolean">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
+    <bcf:option datatype="boolean">sccite</bcf:option>
+    <bcf:option datatype="boolean">accite</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -723,11 +747,14 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
+    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -746,9 +773,10 @@
   </bcf:optionscope>
   <bcf:optionscope type="ENTRY">
     <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
     <bcf:option datatype="string" backendout="1">indexing</bcf:option>
@@ -819,6 +847,9 @@
     <bcf:option datatype="boolean" backendout="1">extradate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">extrayear</bcf:option>
     <bcf:option datatype="boolean" backendout="1">backref</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">dateyear</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">datemonth</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -834,9 +865,10 @@
     <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
@@ -850,9 +882,10 @@
     <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
@@ -877,7 +910,7 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" level="user">
+    <bcf:maps datatype="bibtex" level="style">
       <bcf:map>
         <bcf:map_step map_field_source="conference-number" map_field_target="number"/>
         <bcf:map_step map_field_source="conference-year" map_field_target="eventdate"/>
@@ -1099,8 +1132,15 @@
     <bcf:namepart order="2" base="1">family</bcf:namepart>
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
+  <!-- NAME HASH TEMPLATES -->
+  <bcf:namehashtemplate name="global">
+    <bcf:namepart order="1" hashscope="full">family</bcf:namepart>
+    <bcf:namepart order="2" hashscope="full">given</bcf:namepart>
+    <bcf:namepart order="3" hashscope="full">prefix</bcf:namepart>
+    <bcf:namepart order="4" hashscope="full">suffix</bcf:namepart>
+  </bcf:namehashtemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global">
+  <bcf:sortingnamekeytemplate name="global" visibility="sort">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -2433,82 +2473,85 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/publicacoes.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1">garavaglia2018craft</bcf:citekey>
-    <bcf:citekey order="1">elzinga2015craft</bcf:citekey>
-    <bcf:citekey order="2">dias2021cloud</bcf:citekey>
-    <bcf:citekey order="3">teng2022sme</bcf:citekey>
-    <bcf:citekey order="4">dias2023microbrewery</bcf:citekey>
-    <bcf:citekey order="5">vial2021understanding</bcf:citekey>
-    <bcf:citekey order="6">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="7">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="8">schallmo2017digital</bcf:citekey>
-    <bcf:citekey order="9">vial2021understanding</bcf:citekey>
-    <bcf:citekey order="9">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="10">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="11">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="11">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="12">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="13">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="14">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="15">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="16">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="17">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="18">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="19">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="19">marston2011cloud</bcf:citekey>
-    <bcf:citekey order="20">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="21">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="21">marston2011cloud</bcf:citekey>
-    <bcf:citekey order="22">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="23">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="24">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="25">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="26">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="26">marston2011cloud</bcf:citekey>
-    <bcf:citekey order="27">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="28">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="29">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="29">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="30">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="30">chiang2016fog</bcf:citekey>
-    <bcf:citekey order="31">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="32">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="32">chiang2016fog</bcf:citekey>
-    <bcf:citekey order="33">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="34">shi2016edge</bcf:citekey>
-    <bcf:citekey order="35">shi2016edge</bcf:citekey>
-    <bcf:citekey order="36">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="37">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="38">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="39">shi2016edge</bcf:citekey>
-    <bcf:citekey order="40">satyanarayanan2015edge</bcf:citekey>
-    <bcf:citekey order="41">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="41">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="41">shi2016edge</bcf:citekey>
-    <bcf:citekey order="41">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="42">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="42">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="43">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="43">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="44">shi2016edge</bcf:citekey>
-    <bcf:citekey order="44">satyanarayanan2015edge</bcf:citekey>
-    <bcf:citekey order="45">garavaglia2018craft</bcf:citekey>
-    <bcf:citekey order="46">elzinga2015craft</bcf:citekey>
-    <bcf:citekey order="47">dias2021cloud</bcf:citekey>
-    <bcf:citekey order="48">teng2022sme</bcf:citekey>
-    <bcf:citekey order="49">dias2023microbrewery</bcf:citekey>
-    <bcf:citekey order="50">vial2021understanding</bcf:citekey>
-    <bcf:citekey order="51">ghobakhloo2020industry</bcf:citekey>
-    <bcf:citekey order="52">schallmo2017digital</bcf:citekey>
-    <bcf:citekey order="53">sestino2020internet</bcf:citekey>
-    <bcf:citekey order="54">armbrust2010view</bcf:citekey>
-    <bcf:citekey order="55">cloud2011nist</bcf:citekey>
-    <bcf:citekey order="56">marston2011cloud</bcf:citekey>
-    <bcf:citekey order="57">bonomi2012fog</bcf:citekey>
-    <bcf:citekey order="58">mouradian2017comprehensive</bcf:citekey>
-    <bcf:citekey order="59">chiang2016fog</bcf:citekey>
-    <bcf:citekey order="60">shi2016edge</bcf:citekey>
-    <bcf:citekey order="61">satyanarayanan2015edge</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">garavaglia2018craft</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">elzinga2015craft</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">dias2021cloud</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">teng2022sme</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">dias2023microbrewery</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">dias2023microbrewery</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">vial2021understanding</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">vial2021understanding</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">schallmo2017digital</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">schallmo2017digital</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">vial2021understanding</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">sestino2020internet</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="32" intorder="2">marston2011cloud</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">chiang2016fog</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">chiang2016fog</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">shi2016edge</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">shi2016edge</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">shi2016edge</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">shi2016edge</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">satyanarayanan2015edge</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="51" intorder="3">shi2016edge</bcf:citekey>
+    <bcf:citekey order="51" intorder="4">ghobakhloo2020industry</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">armbrust2010view</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">cloud2011nist</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">bonomi2012fog</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">mouradian2017comprehensive</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">shi2016edge</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">satyanarayanan2015edge</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/referencias.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">Pós-Textual/publicacoes.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2518,15 +2561,19 @@
     <bcf:sort order="1">
       <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
+    </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="1"
-                name="none/global//global/global"
+                name="none/global//global/global/global"
                 type="entry"
                 sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
-                labelalphanametemplatename="global">
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
   </bcf:datalist>
 </bcf:controlfile>

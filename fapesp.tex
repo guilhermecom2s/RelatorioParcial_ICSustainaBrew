@@ -47,6 +47,9 @@
 \usepackage{xstring}
 \usepackage{comment}            % Habilita comentários multilinha
 
+\usepackage{pgffor}             % Para usar o foreach
+\usepackage{pdfpages}           % Para inclusão de PDFs
+
 % Texto fictício para testes
 \usepackage{lipsum}             % Texto de preenchimento
 
@@ -58,14 +61,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% BIBLIOGRAFIA (usando biblatex + estilo ABNT da pasta abnt/)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[
-    backend=biber,
-    style=abnt-numeric,
-    sorting=none,
-    language=brazil,
-    defernumbers=true
-]{biblatex}
+%\usepackage[
+%    backend=biber,
+%    %style=abnt-numeric,
+%    style=abnt-alf,
+%    sorting=none,
+%    language=brazil,
+%   %defernumbers=true
+%]{biblatex}
 
+%\usepackage[alf]{abntex2cite}
+\usepackage[
+  backend=biber,
+  style=abnt,      % <- autor-data ABNT (não é abnt-alf)
+  sorting=none,
+  language=brazil
+]{biblatex}
 % Carregar pacote personalizado
 \usepackage{fapesp}
 
@@ -116,19 +127,19 @@
 \end{refsection}
 
 % Pós-Textual
-% \newpage
-% \begin{refsection}
-% \IfFileExists{Pós-Textual/apendices.tex}{%
-%     \startappendices
-%     \include{Pós-Textual/apendices}
+ \newpage
+ \begin{refsection}
+ \IfFileExists{Pós-Textual/apendices.tex}{%
+     \startappendices
+     \include{Pós-Textual/apendices}
     
-% }{}
-% \end{refsection}
+ }{}
+ \end{refsection}
 
-% \IfFileExists{Pós-Textual/anexos.tex}{%
-%    \startannexes
-%    \include{Pós-Textual/anexos}
-% }{}
+ \IfFileExists{Pós-Textual/anexos.tex}{%
+    \startannexes
+    \include{Pós-Textual/anexos}
+    }{}
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

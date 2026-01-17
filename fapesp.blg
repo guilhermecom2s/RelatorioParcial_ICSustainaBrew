@@ -1,17 +1,19 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'fapesp.blg'
-[155] biber:340> INFO - === Mon Jan  5, 2026, 22:50:17
-[181] Biber.pm:418> INFO - Reading 'fapesp.bcf'
-[329] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[335] Biber.pm:972> INFO - Found 17 citekeys in bib section 1
-[336] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[379] Biber.pm:4383> INFO - Processing section 1
-[403] Biber.pm:4574> INFO - Looking for bibtex file 'Pós-Textual/referencias.bib' for section 1
-[405] bibtex.pm:1713> INFO - LaTeX decoding ...
-[455] bibtex.pm:1518> INFO - Found BibTeX data source 'Pós-Textual/referencias.bib'
-[861] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[862] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[862] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-BR'
-[862] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
-[890] bbl.pm:654> INFO - Writing 'fapesp.bbl' with encoding 'UTF-8'
-[911] bbl.pm:757> INFO - Output to fapesp.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'fapesp.blg'
+[265] biber-MSWIN64:342> INFO - === 
+[362] Biber.pm:421> INFO - Reading 'fapesp.bcf'
+[685] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[691] Biber.pm:1002> INFO - Found 17 citekeys in bib section 1
+[691] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[691] Biber.pm:1002> INFO - Found 0 citekeys in bib section 2
+[691] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[750] Biber.pm:4487> INFO - Processing section 1
+[771] Biber.pm:4678> INFO - Looking for bibtex file 'Pós-Textual/referencias.bib' for section 1
+[856] bibtex.pm:1713> INFO - LaTeX decoding ...
+[943] bibtex.pm:1519> INFO - Found BibTeX data source 'Pós-Textual/referencias.bib'
+[1205] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1205] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1205] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-BR'
+[1206] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[1234] bbl.pm:676> INFO - Writing 'fapesp.bbl' with encoding 'UTF-8'
+[1261] bbl.pm:779> INFO - Output to fapesp.bbl
